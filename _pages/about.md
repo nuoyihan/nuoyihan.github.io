@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Violet Han
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-Hi! I’m Violet. I’m an incoming PhD student advised by [Professor Alexandra Ion](http://alexandraion.com/) in [Interactive Structures Lab](https://interactive-structures.org/), at Carnegie Mellon University’s Human-Computer Interaction Institute. I have also worked with [Professor David Lindlbauer](https://www.davidlindlbauer.com/) in Augmented Perception Lab(https://augmented-perception.org/).
+Hi! I’m Violet. I’m an 1st year PhD student advised by [Professor Alexandra Ion](http://alexandraion.com/) in [Interactive Structures Lab](https://interactive-structures.org/), at Carnegie Mellon University’s Human-Computer Interaction Institute. I have also worked with [Professor David Lindlbauer](https://www.davidlindlbauer.com/) in [Augmented Perception Lab](https://augmented-perception.org/).
 
 I am interested in creating novel interfaces (both digital and physical) and their interactions for everyday users in the near future, going beyond the flat screen. I reflect on our daily interactions within the physical and digital domains, to push their boundaries and bring advantages of one into another.
 
