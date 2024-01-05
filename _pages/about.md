@@ -14,14 +14,15 @@ profile:
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hihi-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Hi! I’m Violet. I’m an incoming PhD student advised by [Professor Alexandra Ion](http://alexandraion.com/) in [Interactive Structures Lab](https://interactive-structures.org/), at Carnegie Mellon University’s Human-Computer Interaction Institute. I have also worked with [Professor David Lindlbauer](https://www.davidlindlbauer.com/) in Augmented Perception Lab(https://augmented-perception.org/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am interested in creating novel interfaces (both digital and physical) and their interactions for everyday users in the near future, going beyond the flat screen. I reflect on our daily interactions within the physical and digital domains, to push their boundaries and bring advantages of one into another.
+
+My broad area of research is technical Human-Computer Interaction. I mostly work in digital fabrication and mixed reality, while also referencing knowledge from other areas, such as computer graphics, human perception, mechanical engineering, and material science.
