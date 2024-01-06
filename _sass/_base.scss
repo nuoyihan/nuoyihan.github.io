@@ -279,7 +279,7 @@ blockquote {
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 
     a {
       i::before {
@@ -351,9 +351,10 @@ blockquote {
 
 .social {
   text-align: center;
+  padding-top: 50px;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.8rem;
 
     a {
       i::before {
@@ -412,7 +413,7 @@ footer.fixed-bottom {
 
   .container {
     color: var(--global-footer-text-color);
-    padding-top: 9px;
+    padding-top: 0px;
     padding-bottom: 8px;
   }
 
@@ -427,10 +428,11 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
+  text-align: center;
+  // border-top: 1px solid var(--global-divider-color);
+  padding-top: 0px;
   padding-bottom: 40px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 // CV
@@ -665,7 +667,7 @@ footer.sticky-bottom {
       .preview {
         width: 100%;
         min-width: 80px;
-        max-width: 200px;
+        // max-width: 200px;
       }
 
       .abbr {
@@ -694,6 +696,7 @@ footer.sticky-bottom {
       }
       .award {
         color: var(--global-theme-color) !important;
+        font-weight: bolder;
       }
 
       .title {
