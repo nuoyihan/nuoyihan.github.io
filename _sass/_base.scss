@@ -17,6 +17,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: 'Roboto', sans-serif;
 }
 
 hr {
@@ -215,7 +216,7 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: 0px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
@@ -691,9 +692,12 @@ footer.sticky-bottom {
           border: 1px solid var(--global-theme-color);
         }
       }
+      .award {
+        color: var(--global-theme-color) !important;
+      }
 
       .title {
-        font-weight: bolder;
+        font-weight: bold;
       }
 
       .author {

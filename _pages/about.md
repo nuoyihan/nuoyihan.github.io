@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -21,8 +21,10 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-Hi! I’m Violet. I’m a 1st year PhD student advised by [Professor Alexandra Ion](http://alexandraion.com/) in [Interactive Structures Lab](https://interactive-structures.org/), at Carnegie Mellon University’s Human-Computer Interaction Institute. I have also worked with [Professor David Lindlbauer](https://www.davidlindlbauer.com/) in [Augmented Perception Lab](https://augmented-perception.org/).
+<span style="font-size: 1.03em;font-weight:bolder;"> Hi! I’m [Violet](https://nuoyihan.github.io).
 
-I am interested in creating novel interfaces (both digital and physical) and their interactions for everyday users in the near future, going beyond the flat screen. I reflect on our daily interactions within the physical and digital domains, to push their boundaries and bring advantages of one into another.
+<span style="font-size: 1.03em; "><span style = "font-weight:bolder;">I’m a 1st year PhD student advised by [Professor Alexandra Ion](http://alexandraion.com/) in [Interactive Structures Lab](https://interactive-structures.org/), at [Carnegie Mellon University](https://www.cmu.edu/)’s [Human-Computer Interaction Institute](https://hcii.cmu.edu/).</span> I have also worked with [Professor David Lindlbauer](https://www.davidlindlbauer.com/) in [Augmented Perception Lab](https://augmented-perception.org/).</span>
 
-My broad area of research is technical Human-Computer Interaction. I mostly work in digital fabrication and mixed reality, while also referencing knowledge from other areas, such as computer graphics, human perception, mechanical engineering, and material science.
+<span style="font-size: 1.03em;">I am interested in creating <span style = "font-weight:bolder;">novel interfaces (both digital and physical) and their interactions for everyday users in the near future, going beyond the flat screen</span>. I reflect on our daily interactions within the physical and digital domains, to push their boundaries and bring advantages of one into another.</span>
+
+<span style="font-size: 1.03em;">My broad area of research is <span style="font-weight: bolder;">technical Human-Computer Interaction</span>. I mostly work in digital fabrication and mixed reality, while also referencing knowledge from other areas, such as computer graphics, human perception, mechanical engineering, and material science.</span>

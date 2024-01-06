@@ -3,6 +3,7 @@ layout: default
 ---
 
 <!-- about.html -->
+
       <div class="post">
         
         <!-- <header class="post-header">
@@ -26,7 +27,7 @@ layout: default
               {% if page.profile.image_circular %}
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
               {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+                {%- assign profile_image_class = "img-fluid" -%}
               {% endif %}
 
               {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
@@ -50,7 +51,7 @@ layout: default
           <div class="clearfix">
             {{ content }}
           </div>
-
+          <br><br>
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
@@ -68,6 +69,8 @@ layout: default
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
+
+          
 
           <!-- Social -->
           {%- if page.social %}
