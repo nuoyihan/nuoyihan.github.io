@@ -4,39 +4,19 @@ layout: default
 <!-- _layouts/bib.html -->
       <div class="publication-row">
         {%- if site.enable_publication_thumbnails -%}
-        <div class="publication-responsive-2cols">
-        <!-- <div class="col-sm-4 {% if entry.preview %}preview{% else %}abbr{% endif %}"> -->
-
-        <!-- {%- if entry.video_preview -%}
-        <div class="video-wrapper">
-          <iframe  width="320" height="180" allowfullscreen frameborder="0" scrolling="no" 
-          src= "{{entry.video_preview}}"
-          ></iframe>
-        </div> -->
-          {% if entry.preview contains '://' -%}
-          <img class="preview" src="{{ entry.preview }}">
-          {%- else -%}
-            {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
-            {% include figure.html
-            path=entry_path
-            sizes = "800px"
-            class="preview"
-            zoomable=false
-            alt=entry.preview -%}
-          {%- endif -%}
-
-        <!-- {%- elsif entry.abbr -%}
-          {%- if site.data.venues[entry.abbr] -%}
-            {%- assign venue_style = nil -%}
-            {%- if site.data.venues[entry.abbr].color != blank -%}
-              {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
+          <div class="publication-responsive-2cols">
+            {% if entry.preview contains '://' -%}
+            <img class="preview" src="{{ entry.preview }}">
+            {%- else -%}
+              {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
+              {% include figure.html
+              path=entry_path
+              sizes = "800px"
+              class="preview"
+              zoomable=false
+              alt=entry.preview -%}
             {%- endif -%}
-            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
-          {%- else -%}
-            <abbr class="badge">{{entry.abbr}}</abbr>
-          {%- endif -%} -->
-        <!-- {%- endif -%} -->
-        </div>
+          </div>
         {%- endif -%}
 
         <div class="publication-responsive-2cols">
@@ -164,7 +144,7 @@ layout: default
             <!-- Links/Buttons -->
             <div class="links">
             {%- if entry.abstract %}
-            <a class="abstract btn_simple btn-sm z-depth-0" role="button">abstract</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
             {%- endif %}
             {%- if entry.doi %}
             <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>

@@ -4,14 +4,55 @@ title: entry.title
 related_publications: 
 ---
 
-<div class = "publication-authors"> 
-    {{page.entry.author}}</div>
+<div class = "publication-author"> 
+    <!-- {{page.entry.author_array}}
+    {% assign author_array_size = entry.author_array | size %}
+    {% assign count = 1 %} -->
+    {% assign author_array_size = page.entry.author_array | size %}
+
+
+
+    {%- for author in page.entry.author_array -%}
+
+        {%- assign author_is_self = false -%}
+        {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+        {%- if site.scholar.last_name contains author_last_name -%}
+            {%- if site.scholar.first_name contains author.first -%}
+                {%- assign author_is_self = true -%}
+            {%- endif -%}
+        {%- endif -%}
+        {%- assign coauthor_url = nil -%}
+        {%- if site.data.coauthors[author_last_name] -%}
+            {%- for coauthor in site.data.coauthors[author_last_name] -%}
+                {%- if coauthor.firstname contains author.first -%}
+                    {%- assign coauthor_url = coauthor.url -%}
+                    {%- break -%}
+                {%- endif -%}
+            {%- endfor -%}
+        {%- endif -%}
+
+        {%- if forloop.length > 1 -%}
+            {%- if forloop.first == false -%},&nbsp;{%- endif -%}
+            {%- if forloop.last -%}and&nbsp;{%- endif -%}
+        {%- endif -%}
+
+        {%- if author_is_self -%}
+            <em>{{author.first}} {{author.last}}</em>
+        {%- else -%}
+            {%- if coauthor_url -%}
+                <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+            {%- else -%}
+                {{author.first}} {{author.last}}
+            {%- endif -%}
+        {%- endif -%}
+    {%- endfor -%}
+    </div>
     
     {%- if page.entry.award != blank -%}
         <div class = "publication-award"> <i class="fa-solid fa-trophy"></i> {{page.entry.award}}</div>
     {%- endif -%}
     
-    <a class = "publication-venue" href={{page.entry.conference_link}}>{{page.entry.conference}}</a>
+    <a class = "publication-venue" href={{page.entry.venue_link}}>{{page.entry.venue}}</a>
     
     {%- if page.entry.fig1 != blank -%}
         <div class="row">
@@ -26,7 +67,7 @@ related_publications:
     <div class = "publication-header"> Paper </div>
     <a class = "publication-materials" href = {{page.entry.pdf}}>View paper PDF</a>
     <br>
-    <a class = "publication-materials" href = {{page.entry.url}}>View in ACM Digital Library</a>
+    <a class = "publication-materials" href = {{page.entry.url}}>View in {{page.entry.doi_host}}</a>
     
     {% if page.entry.embed_videofigure != blank %}
         {% assign embed_video_link = page.entry.embed_videofigure %}
