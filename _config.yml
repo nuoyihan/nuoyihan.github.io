@@ -282,7 +282,7 @@ scholar:
   style: apa
   locale: en
 
-  source: /_bibliography/
+  source: /_publications/
   bibliography: papers.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
@@ -293,9 +293,9 @@ scholar:
   replace_strings: true
   join_strings: true
 
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
+  details_dir: publications
+  details_layout: publication.html
+  details_link: 
 
   query: "@*"
   group_by: year

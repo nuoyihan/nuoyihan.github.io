@@ -1,0 +1,41 @@
+---
+layout: page
+title: entry.title
+related_publications: 
+---
+
+<div class = "publication-authors"> 
+    {{page.entry.author}}</div>
+    
+    {%- if page.entry.award != blank -%}
+        <div class = "publication-award"> <i class="fa-solid fa-trophy"></i> {{page.entry.award}}</div>
+    {%- endif -%}
+    
+    <a class = "publication-venue" href={{page.entry.conference_link}}>{{page.entry.conference}}</a>
+    
+    {%- if page.entry.fig1 != blank -%}
+        <div class="row">
+            <div class="col-sm mt-3 mt-md-0">
+                {% include figure.html path=page.entry.fig1 title="figure 1" class="img-fluid " %}
+            </div>
+        </div>
+    {% endif %}
+    
+    <div class = "publication-header"> Abstract</div>
+    {{page.entry.abstract}}
+    <div class = "publication-header"> Paper </div>
+    <a class = "publication-materials" href = {{page.entry.pdf}}>View paper PDF</a>
+    <br>
+    <a class = "publication-materials" href = {{page.entry.url}}>View in ACM Digital Library</a>
+    
+    {% if page.entry.embed_videofigure != blank %}
+        {% assign embed_video_link = page.entry.embed_videofigure %}
+        <div class = "publication-header">Video Figure</div>
+        <div class="row">
+            <div class="col-sm mt-3 mt-md-0">
+                <div class="video_container">
+                    <iframe class = "responsive-iframe" src= "{{embed_video_link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+            </div>
+        </div>
+    {% endif %}
