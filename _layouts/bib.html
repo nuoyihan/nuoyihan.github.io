@@ -2,9 +2,9 @@
 layout: default
 ---
 <!-- _layouts/bib.html -->
-      <div class="row">
+      <div class="publication-row">
         {%- if site.enable_publication_thumbnails -%}
-        <div class="col-6">
+        <div class="publication-responsive-2cols">
         <!-- <div class="col-sm-4 {% if entry.preview %}preview{% else %}abbr{% endif %}"> -->
 
         <!-- {%- if entry.video_preview -%}
@@ -19,7 +19,7 @@ layout: default
             {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
             {% include figure.html
             path=entry_path
-            sizes = "600px"
+            sizes = "800px"
             class="preview"
             zoomable=false
             alt=entry.preview -%}
@@ -39,11 +39,19 @@ layout: default
         </div>
         {%- endif -%}
 
-        <div class="col-6">
+        <div class="publication-responsive-2cols">
           <!-- Entry bib key -->
           <div id="{{entry.key}}">
           <!-- Title -->
-          <div class="title">{{entry.title}}</div>
+          
+          {%- assign publist = site.publications -%}
+          {% for publication in publist -%}
+            {% if publication.title == entry.title -%}
+              {% assign this_pub = publication %}
+            {%- endif%}
+          {% endfor -%}
+          <!-- <a class="post-title" href="{{| relative_url }}">{{entry.title }}</a> -->
+          <div class="title"><a href="{{this_pub.url | relative_url }}">{{entry.title}}</a></div>
           <!-- award -->
           {%- if entry.award != blank -%}
             <div class= "award"><i class="fa-solid fa-trophy"></i>&nbsp;{{entry.award}}</div>
@@ -151,11 +159,34 @@ layout: default
             {{ entry.note | strip }}
           </div>
 
+          <br>
             <!-- Links/Buttons -->
             <div class="links">
             {%- if entry.abstract %}
-              <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="abstract btn_simple btn-sm z-depth-0" role="button">abstract</a>
             {%- endif %}
+            {%- if entry.doi %}
+            <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+            {%- endif %}
+            {%- if entry.pdf %}
+              {% if entry.pdf contains '://' -%}
+              <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+              {%- else -%}
+              <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+              {%- endif %}
+            {%- endif %}
+            {%- if entry.video_preview %}
+            <a href="{{ entry.video_preview}}" class="btn btn-sm z-depth-0" role="button">Video</a>
+            {%- endif %}
+            {%- if entry.talk %}
+            <a href="{{ entry.talk}}" class="btn btn-sm z-depth-0" role="button">Talk</a>
+            {%- endif %}
+            {%- if entry.code %}
+              <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+            {%- endif %}
+
+
+
             {%- if entry.arxiv %}
               <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
             {%- endif %}
@@ -165,13 +196,6 @@ layout: default
             {%- if entry.html %}
               <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
             {%- endif %}
-            {%- if entry.pdf %}
-              {% if entry.pdf contains '://' -%}
-              <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-              {%- else -%}
-              <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-              {%- endif %}
-            {%- endif %}
             {%- if entry.supp %}
               {% if entry.supp contains '://' -%}
               <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
@@ -179,14 +203,8 @@ layout: default
               <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
               {%- endif %}
             {%- endif %}
-            {%- if entry.video %}
-              <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
-            {%- endif %}
             {%- if entry.blog %}
               <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
-            {%- endif %}
-            {%- if entry.code %}
-              <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
             {%- endif %}
             {%- if entry.poster %}
               {% if entry.poster contains '://' -%}
