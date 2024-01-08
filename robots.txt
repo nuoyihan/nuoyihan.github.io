@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://nuoyihan.github.io/sitemap.xml
+Sitemap: https://violethan.com/sitemap.xml
