@@ -198,6 +198,41 @@ blockquote {
 }
 
 // added -v
+
+.containerr {
+  position:relative;
+  margin:0em;
+}
+.details {
+  display:none;
+}
+.collapsible.ontoggle{
+  border: none;
+  background-color: var(--global-bg-color);
+  font-weight: 300;
+}
+.collapsible.onactive:active,
+.collapsible.onfocus:focus,
+.collapsible.ontoggle:focus
+{
+  margin-bottom:1.5em;
+  
+}
+.collapsible.ontoggle:focus {
+    pointer-events:none;
+}
+
+.collapsible.onactive:active + .details, 
+.collapsible.onfocus:focus + .details, 
+.collapsible.ontoggle:focus + .details 
+{
+  display:inline-block;
+  margin-top:-1.15em;
+  position:relative;
+  left:0;
+  right:0;
+}
+
 .video_container {
   position: relative;
   overflow: hidden;
@@ -1184,5 +1219,9 @@ nav[data-toggle="toc"] {
 
 #toc-sidebar {
   z-index: 1;
+}
+
+.sameline{
+  display: inline-block;
 }
 
