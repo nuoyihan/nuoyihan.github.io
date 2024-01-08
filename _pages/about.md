@@ -31,9 +31,9 @@ social: true  # includes social icons at the bottom of the page
       <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>&nbsp;
       <a href="https://twitter.com/{{ site.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
   </span>. 
-  <button class="collapsible ontoggle">More about me.</button><span class=details>Outside of research, I spend my time running, gyming, listening to hiphop, cooking, enjoying a variety of sports, sipping on drinks, reading, drawing, seeking karoakee, participating in the rad local interest groups and events Pittsburgh has to offer, traveling… and just chilling with my awesome friends and <a href="https://y0mingzhang.github.io/">Yiming</a>. 
+  <button class="collapsible ontoggle">More about me.</button><span class=details>Outside of research, I spend my time running, gyming, listening to hiphop, cooking, enjoying a variety of sports, sipping on drinks, reading, drawing, seeking karoake, participating in the rad local interest groups and events Pittsburgh has to offer, traveling… and just chilling with my awesome friends and <a href="https://y0mingzhang.github.io/">Yiming</a>. 
   <br><br>
-  Hit me up for sports, coffee, drinks, and karaokee :<span>&#41;</span>
+  Hit me up for sports, coffee, drinks, and karaoke :<span>&#41;</span>
   <br><br>
   Recently I am excited for the <a href ="https://www.thepittsburghmarathon.com/races/half-marathon-1">Pittsburgh 2024 half marathon</a>!
   </span>
