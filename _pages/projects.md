@@ -1,8 +1,8 @@
 ---
 layout: page
 title: other projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+permalink: /other-projects/
+description: As an undergrad, I did art and design at University of Michigan. Here are my projects from back in the days.
 nav: false
 nav_order: 4
 display_categories: [work, fun]

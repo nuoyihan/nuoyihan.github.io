@@ -50,7 +50,44 @@ layout: default
 
           <div class="clearfix">
             {{ content }}
-            
+            <div class=containerr>
+              <span style="font-size: 1.0em;">Reach me at </span> &nbsp;
+                <span style="font-size: 1.3em;">
+                    <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>&nbsp;
+                    <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>&nbsp;
+                    <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>&nbsp;
+                    <a href="https://twitter.com/{{ site.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+                </span>. 
+              
+                <button class = "moreabt" onclick="toggleText()" id="textButton">
+                  More about me.
+              </button>
+                <span id="moreText" style = "display:none;"> Outside of research, I spend my time running, gyming, listening to hiphop, cooking, enjoying a variety of sports, sipping on coffee and drinks, reading, drawing, 
+                  skateboarding, seeking karoake opportunities, participating in the rad local interest groups and events Pittsburgh has to offer, traveling… 
+                  and just chilling with my awesome friends and <a href="https://y0mingzhang.github.io/">Yiming</a>. 
+                  Hit me up for <span style="font-weight: bolder;">sports</span>, <span style="font-weight: bolder;">coffee</span>, <span style="font-weight: bolder;">drinks</span>, 
+                  and <span style="font-weight: bolder;">anything fun</span> :<span>&#41;</span>
+                  Recently I am excited for the <a href ="https://www.thepittsburghmarathon.com/races/half-marathon-1">Pittsburgh 2024 half marathon</a>!
+                </span>
+                
+                <script>
+                    function toggleText() {
+                        let showMoreText =
+                            document.getElementById("moreText");
+                        let buttonText =
+                            document.getElementById("textButton");
+                        if (showMoreText.style.display == "inline") {
+                            showMoreText.style.display = "none";
+                            buttonText.innerHTML = "More about me.";
+                        }
+                        else {
+                            showMoreText.style.display = "inline";
+                            buttonText.innerHTML = "More about me:";
+                        }
+                    }
+                </script>
+              </div>
+          
             
           </div>
           <br><br>
