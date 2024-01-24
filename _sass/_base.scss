@@ -199,6 +199,10 @@ blockquote {
 }
 
 // added -v
+.center-container {
+  margin: 25px;
+  width: 100%;
+}
 .moreabt{
   color: var(--global-text-color-light);
   background: none;
@@ -739,21 +743,24 @@ footer.sticky-bottom {
       align-items: center;
     }
   }
-
+  .grid{
+    margin-bottom: 0;
+    height: 100%;
+  }
   .grid-sizer,
   .grid-item {
-    width: 250px;
-    margin-bottom: 10px;
+    width: 220px;
+    margin-bottom: 0.8rem;
   }
 
   h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
-    font-size: 1em;
+    color: var(--global-text-color);
+    font-size: 0.8em;
+    font-weight: bold;
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: right;
+    text-align: left;
   }
 }
 
@@ -1246,40 +1253,61 @@ nav[data-toggle="toc"] {
 
 //added for projects
 .prj-container {
-  position: relative;
-  width: 100%;
+  position:relative;
+  width:100%;
+  height:100%;
 }
-.image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
+.prj-container img {
+  width:100%;
+  vertical-align:top;
+}
+.prj-container:after, .prj-container:before {
+  position:absolute;
+  opacity:0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.prj-container:after {
+  content:'\A';
+  width:100%; height:100%;
+  top:0; left:0;
+  background:rgba(0,0,0,0.6);
+}
+.prj-container:before {
+  content: attr(data-content);
+  width:100%;
+  color:#fff;
+  z-index:1;
+  text-align:center;
+  padding: 70px 0;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  font-family: 'Roboto';
+  text-transform: none;
+}
+.prj-container:hover:after, .prj-container:hover:before {
+  opacity:1;
 }
 
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
 
-.prj-container:hover .image {
-  opacity: 0.3;
-}
+// .middle {
+//   transition: .5s ease;
+//   opacity: 0;
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   -ms-transform: translate(-50%, -50%);
+//   text-align: center;
+// }
 
-.prj-container:hover .middle {
-  opacity: 1;
-}
 
 .text {
-  background-color: #04AA6D;
   color: white;
   font-size: 16px;
-  padding: 16px 32px;
+}
+
+#root {
+  height: 50%;
+  width: 100%;
 }

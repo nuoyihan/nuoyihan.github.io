@@ -6,14 +6,17 @@
     {%- else -%}
     <a href="{{ project.url | relative_url }}">
       {%- endif %}
+
       <div class="card hoverable">
         {%- if project.img %}
         {%- include project-fig.html
+          title = project.title
+          class = image_class
           path=project.img
-          sizes = "250px"
+          sizes = "220px"
           alt="project thumbnail" -%}
         {%- endif %}
-        <div class="card-body">
+        <!-- <div class="card-body">
           <h2 class="card-title text-lowercase">{{ project.title }}</h2>
           <p class="card-text">{{ project.description }}</p>
           <div class="row ml-1 mr-1 p-0">
@@ -31,7 +34,7 @@
             </div>
             {%- endif %}
           </div>
-        </div>
+        </div> -->
       </div>
     </a>
 </div>

@@ -13,7 +13,7 @@
       {% if include.sizes %} sizes="{{include.sizes}}" {% else %} sizes="95vw" {% endif %}
       type="image/webp"/>
     {% endif %}
-    <div class = "prj-container">
+    <div data-content="{{include.title}}"  class = "prj-container">
         <img
         src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
         {% if include.class %}class="{{ include.class }}"{% endif %}
@@ -27,11 +27,8 @@
         {% if include.title %}title="{{ include.title }}"{% endif %}
         {% if include.zoomable %}data-zoomable{% endif %}
         onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
-        class = 'image'
         />
-        <div class="middle">
-            <div class="text">John Doe</div>
-        </div>
+
     </div>
   </picture>
 
