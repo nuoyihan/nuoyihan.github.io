@@ -5,6 +5,7 @@ description:
 img: assets/img/type-preview.jpeg
 importance: 3
 category: work
+order: 6
 ---
 
 <div class="row justify-content-sm-center">

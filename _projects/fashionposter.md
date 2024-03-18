@@ -4,6 +4,7 @@ title: Avant Garde Fashion Designers Poster
 description: 
 img: assets/img/fasionposter-preview.png
 importance: 3
+order: 6
 ---
 
 

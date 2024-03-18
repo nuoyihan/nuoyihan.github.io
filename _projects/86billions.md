@@ -4,6 +4,7 @@ title: 86 Billions&#58; What is the experience of a neuron inside your brain?
 description: 
 img: assets/img/86billions-preview.png
 importance: 3
+order: 1
 year: 2021
 ---
 

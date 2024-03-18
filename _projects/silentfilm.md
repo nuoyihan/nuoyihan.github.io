@@ -4,6 +4,7 @@ title: If Life Was Only a Silent Film
 description: 
 img: assets/img/silentfilm-preview.png
 importance: 3
+order: 5
 ---
 
 <div class="row justify-content-sm-center">

@@ -11,5 +11,5 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 3
-cv_pdf: violethan_cv2023.pdf
+cv_pdf: violethan_cv2024.pdf
 ---

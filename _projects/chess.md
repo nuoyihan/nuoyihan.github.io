@@ -4,6 +4,7 @@ title: chess?
 description: 
 img: assets/img/chess-preview.png
 importance: 3
+order: 8
 ---
 
 After woodshop orientation at the start of Freshman year, I made a chess set for my friend’s birthday. 

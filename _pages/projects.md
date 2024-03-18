@@ -12,12 +12,13 @@ horizontal: false
 <div class="projects">
 
   <!-- <h2 class="category">{{ category }}</h2> -->
-  {%- assign categorized_projects = site.projects | sort: "year"-%}
-  {%- assign sorted_projects = categorized_projects| sort: "importance" %}
+  <!-- {%- assign categorized_projects = site.projects | sort: "year"-%}
+  {%- assign sorted_projects = categorized_projects| sort: "importance" %} -->
+  {%- assign sorted_projects = site.projects| sort: "order" %}
   <!-- Generate cards for each project -->
   
     <div class="grid" >
-      {%- for project in site.projects -%}
+      {%- for project in sorted_projects -%}
         {% include projects.html %}
       {%- endfor %}
     </div>
