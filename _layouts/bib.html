@@ -30,9 +30,9 @@ layout: default
       {%- endif%}
     {% endfor -%}
     <!-- <a class="post-title" href="{{| relative_url }}">{{entry.title }}</a> -->
-
-    
     <div class="title"><a href="{{site.url}}/{{site.scholar.details_dir}}/{{entry.key}}/">{{entry.title}}</a></div>
+    
+    
     <!-- award -->
     {%- if entry.award != blank -%}
     <div class= "award"><i class="fa-solid fa-trophy"></i>&nbsp;{{entry.award}}</div>

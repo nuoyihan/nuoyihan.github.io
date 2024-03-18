@@ -80,3 +80,15 @@ related_publications:
             </div>
         </div>
     {% endif %}
+    {% if page.entry.embed_talk != blank %}
+        {% assign embed_talk_link = page.entry.embed_talk %}
+        <div class = "publication-header">Talk</div>
+        <div class="row">
+            <div class="col-sm mt-3 mt-md-0">
+                <div class="video_container">
+                    <iframe class = "responsive-iframe" src= "{{embed_talk_link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+            </div>
+        </div>
+    {% endif %}
+    
