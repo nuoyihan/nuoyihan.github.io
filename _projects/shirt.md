@@ -7,4 +7,5 @@ importance: 1
 order: 15
 ---
 
-Another gift for Yiming, moving
+redirecting to my undergraduate works website
+<meta http-equiv="refresh" content="0; URL='https://hhhvvzhutest.cargo.site/Random-Entries'" />

@@ -7,4 +7,5 @@ importance: 3
 order: 6
 ---
 
-need to think of better name, quick and fun, g0t ppl involed, movin
+redirecting to my undergraduate works website
+<meta http-equiv="refresh" content="0; URL='https://hhhvvzhutest.cargo.site/Random-Entries'" />

@@ -7,4 +7,5 @@ importance: 1
 order: 5
 ---
 
-When I was into Margiela n stuff, movin
+redirecting to my undergraduate works website
+<meta http-equiv="refresh" content="0; URL='https://hhhvvzhutest.cargo.site/other'" />
