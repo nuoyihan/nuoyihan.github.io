@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: violethan.com/sitemap.xml
+Sitemap: https://www.violethan.com/sitemap.xml
