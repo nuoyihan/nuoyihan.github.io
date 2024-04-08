@@ -1305,6 +1305,24 @@ nav[data-toggle="toc"] {
 //   text-align: center;
 // }
 
+// ul {
+//   list-style: none;
+//   columns: 2;
+//   -webkit-columns: 2;
+//   -moz-columns: 2;
+// }
+ul-news {
+  overflow: scroll;
+  min-height:80px;height:80px; max-height:auto;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: start;
+  -webkit-overflow-scrolling: touch;
+}
+li-news {
+  margin-left: 1em;
+}
 
 .text {
   color: white;
