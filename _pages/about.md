@@ -17,11 +17,15 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-<span style="font-size: 1.0em;font-weight:bolder;"> Hi! I’m [Violet](https://nuoyihan.github.io). I’m a 1st year PhD student advised by [Professor Alexandra Ion](http://alexandraion.com/) in [Interactive Structures Lab](https://interactive-structures.org/), at [Carnegie Mellon University](https://www.cmu.edu/)’s [Human-Computer Interaction Institute](https://hcii.cmu.edu/).</span> I have also worked with [Professor David Lindlbauer](https://www.davidlindlbauer.com/) in [Augmented Perception Lab](https://augmented-perception.org/).
+<span style="font-size: 1.0em;font-weight:bolder;"> Hi! I’m [Violet](https://nuoyihan.github.io). I’m a 3rd year PhD student advised by [Professor Alexandra Ion](http://alexandraion.com/) in [Interactive Structures Lab](https://interactive-structures.org/), at [Carnegie Mellon University](https://www.cmu.edu/)’s [Human-Computer Interaction Institute](https://hcii.cmu.edu/).</span> I have also worked with [Professor David Lindlbauer](https://www.davidlindlbauer.com/) in [Augmented Perception Lab](https://augmented-perception.org/) as a Masters student.
 
-<span style="font-size: 1.0em;">I am interested in creating <span style = "font-weight:bolder;">novel interfaces (both digital and physical) and their interactions for everyday users in the near future, going beyond the flat screen</span>. I reflect on our daily interactions within the physical and digital domains, to push their boundaries and bring advantages of one into another.</span>
 
-<span style="font-size: 1.0em;">My broad area of research is <span style="font-weight: bolder;">technical Human-Computer Interaction</span>. I currently mostly work in <span style = "font-weight:bolder;">digital fabrication</span> and <span style = "font-weight:bolder;">mixed reality</span>, while also referencing knowledge from other areas, such as computer graphics, human perception, mechanical engineering, and material science.</span>
+<span style="font-size: 1.0em;font-weight:bolder;">Instead of adding robots to our world that automate tasks, what if our world itself can become robotic and intelligent? </span><span style="font-size: 1.0em;">My research explores <span style = "font-weight:bolder;">intelligent, robotically augmented everyday environments</span> that <span style = "font-weight:bolder;">enhance
+rather than replace human experiences.</span></span>
+
+<span style="font-size: 1.0em;">I build (1) physical systems that integrate into existing objects and environments, enabling multimodal
+input/output capabilities such as robotic manipulation, movement, and tactile display, and (2) digital systems
+that understand users and facilitate interactions through interaction intent inference and proactive assistance.</span>
 
   <!-- <button class="collapsible ontoggle">
     More about me.
