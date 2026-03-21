@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: 
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 <br>
 <span style="font-size: 1.0em;font-weight:bolder;"> I believe robots should adapt to people, not the other way around. </span> 
-I develop learning frameworks that help robots understand users for better assistance and interactions, and I design novel robot platforms that bring intelligence into everyday objects and environments.
+I develop approaches that help robots understand users for better assistance and interactions, and I design novel robot platforms that bring intelligence into everyday objects and environments.
 
 <!-- <span style="font-size: 1.0em;font-weight:bolder;">Instead of adding robots to our world that automate tasks, what if our world itself can become robotic and intelligent? </span><span style="font-size: 1.0em;">My research explores <span style = "font-weight:bolder;">intelligent, robotically augmented everyday environments</span> that <span style = "font-weight:bolder;">enhance
 rather than replace human experiences.</span></span>

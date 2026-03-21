@@ -772,7 +772,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 0;
 
   h1 {
     color: var(--global-theme-color);
@@ -1324,6 +1324,11 @@ ul-news {
 }
 li-news {
   margin-left: 1em;
+}
+
+.news table.table th,
+.news table.table td {
+  font-size: 0.85rem !important;
 }
 
 .text {
