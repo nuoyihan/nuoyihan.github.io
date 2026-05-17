@@ -15,13 +15,20 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+I’m a 3rd-year PhD student at Carnegie Mellon University. I am advised by [Professor Alexandra Ion](http://alexandraion.com/) in the [Interactive Structures Lab](https://interactive-structures.org/) at CMU's [Human-Computer Interaction Institute](https://hcii.cmu.edu/). I am a recipient of the [Qualcomm Innovation Fellowship](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2026-north-america). 
+
+<br>
+<span style="font-size: 1.0em;font-weight:bolder;">I envision physical AI taking many forms in our everyday lives, augmenting how we live and opening new interaction opportunities beyond automating mundane tasks.</span> I pursue this from three angles. I explore new embodiments, such as everyday objects that become proactive robotic agents. I develop user modeling and adaptation methods for individual users and their contexts. And I design new interactive systems that treat the physical world itself as the interface.
+
+<br>
+In summer 2024, I worked as a research scientist intern at Meta Reality Labs. In summer 2022, I started technical HCI research with Professor David Lindlbauer in the Augmented Perception Lab. 
 
 
-<span style="font-size: 1.0em;font-weight:bolder;"> Hi! I’m [Violet](https://nuoyihan.github.io). I’m a 3rd year PhD student advised by [Professor Alexandra Ion](http://alexandraion.com/) in the [Interactive Structures Lab](https://interactive-structures.org/), at [Carnegie Mellon University](https://www.cmu.edu/)’s [Human-Computer Interaction Institute](https://hcii.cmu.edu/).</span> I have also worked with [Professor David Lindlbauer](https://www.davidlindlbauer.com/) in the [Augmented Perception Lab](https://augmented-perception.org/) as a Masters student.
+<!-- <span style="font-size: 1.0em;font-weight:bolder;"> Hi! I’m [Violet](https://nuoyihan.github.io). I’m a 3rd year PhD student advised by [Professor Alexandra Ion](http://alexandraion.com/) in the [Interactive Structures Lab](https://interactive-structures.org/), at [Carnegie Mellon University](https://www.cmu.edu/)’s [Human-Computer Interaction Institute](https://hcii.cmu.edu/).</span> I have also worked with [Professor David Lindlbauer](https://www.davidlindlbauer.com/) in the [Augmented Perception Lab](https://augmented-perception.org/) as a Masters student.
 
 <br>
 <span style="font-size: 1.0em;font-weight:bolder;"> I believe robots should adapt to people, not the other way around. </span> 
-I develop approaches that help robots understand users for better assistance and interactions, and I design novel robot platforms that bring intelligence into everyday objects and environments.
+I develop approaches that help robots understand users for better assistance and interactions, and I design novel robot platforms that bring intelligence into everyday objects and environments. -->
 
 <!-- <span style="font-size: 1.0em;font-weight:bolder;">Instead of adding robots to our world that automate tasks, what if our world itself can become robotic and intelligent? </span><span style="font-size: 1.0em;">My research explores <span style = "font-weight:bolder;">intelligent, robotically augmented everyday environments</span> that <span style = "font-weight:bolder;">enhance
 rather than replace human experiences.</span></span>
