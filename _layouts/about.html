@@ -19,78 +19,80 @@ layout: default
         <!-- </header> -->
 
         <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+          <div class="about-intro-news">
+            <div class="about-intro">
+              {% if page.profile -%}
+              <div class="about-profile">
+                {%- if page.profile.image %}
+                  {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid" -%}
-              {% endif %}
+                  {% if page.profile.image_circular %}
+                    {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+                  {% else %}
+                    {%- assign profile_image_class = "img-fluid" -%}
+                  {% endif %}
 
-              {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-              
-              {% include figure.html
-                path = profile_image_path
-                class = profile_image_class
-                sizes = sizes
-                alt = page.profile.image
-                cache_bust = true 
-              %}
-            {% endif -%}
-            {%- if page.profile.more_info %}
-            <div class="more-info">
-              {{ page.profile.more_info }}
-            </div>
-            {%- endif -%}
-          </div>
-          {%- endif %}
-
-          <div class="clearfix">
-            {{ content }}
-            <div class=containerr>
-              <span style="font-size: 1.0em;">Reach me at </span> &nbsp;
-                <span style="font-size: 1.3em;">
-                    <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>&nbsp;
-                    <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>&nbsp;
-                    <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>&nbsp;
-                    <a href="https://twitter.com/{{ site.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
-                </span>. 
-                <button class = "moreabt" onclick="toggleText()" id="textButton">
-                  More about me.
-              </button>
-                <span id="moreText" style = "display:none;"> I enjoy running, boxing, painting, making food and cocktails (which alex once said is an assembly task in a HRC study design setting)... and hanging with my awesome friends and <a href="https://y0mingzhang.github.io/">Yiming</a>, among other things.
-                </span>
-
-                <script>
-                  function toggleText() {
-                      let showMoreText =
-                          document.getElementById("moreText");
-                      let buttonText =
-                          document.getElementById("textButton");
-                      if (showMoreText.style.display == "inline") {
-                          showMoreText.style.display = "none";
-                          buttonText.innerHTML = "More about me.";
-                      }
-                      else {
-                          showMoreText.style.display = "inline";
-                          buttonText.innerHTML = "More about me:";
-                      }
-                  }
-              </script>
+                  {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+                  
+                  {% include figure.html
+                    path = profile_image_path
+                    class = profile_image_class
+                    sizes = sizes
+                    alt = page.profile.image
+                    cache_bust = true 
+                  %}
+                {% endif -%}
+                {%- if page.profile.more_info %}
+                <div class="more-info">
+                  {{ page.profile.more_info }}
+                </div>
+                {%- endif -%}
               </div>
-              <!-- <div class="centered">
-                <img src="/assets/img/research-vision6.png" alt="research", width ="700",align="center">
-              </div> -->
-          </div>
+              {%- endif %}
+              <div class="about-text">
+                {{ content }}
+                <div class=containerr>
+                  <span style="font-size: 1.0em;">Reach me at </span> &nbsp;
+                    <span style="font-size: 1.3em;">
+                        <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>&nbsp;
+                        <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>&nbsp;
+                        <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>&nbsp;
+                        <a href="https://twitter.com/{{ site.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+                    </span>. 
+                    <button class = "moreabt" onclick="toggleText()" id="textButton">
+                      More about me.
+                  </button>
+                    <span id="moreText" style = "display:none;"> I enjoy running, boxing, painting, making food and cocktails (which alex once said is an assembly task in a HRC study design setting)... and hanging with my awesome friends and <a href="https://y0mingzhang.github.io/">Yiming</a>, among other things.
+                    </span>
 
-          <!-- News -->
-          {% if page.news and site.announcements.enabled -%}
-            <h4 style="margin-top: 0.5rem;"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h4>
-            {%- include news.html limit=true %}
-          {%- endif %}
+                    <script>
+                      function toggleText() {
+                          var container = document.querySelector('.about-intro-news');
+                          var showMoreText = document.getElementById("moreText");
+                          var buttonText = document.getElementById("textButton");
+                          if (showMoreText.style.display == "inline") {
+                              showMoreText.style.display = "none";
+                              container.style.height = "";
+                              buttonText.innerHTML = "More about me.";
+                          }
+                          else {
+                              container.style.height = container.offsetHeight + "px";
+                              showMoreText.style.display = "inline";
+                              buttonText.innerHTML = "More about me:";
+                          }
+                      }
+                  </script>
+                  </div>
+              </div>
+            </div>
+
+            <!-- News -->
+            {% if page.news and site.announcements.enabled -%}
+              <div class="about-news">
+                {%- include news.html limit=true %}
+              </div>
+            {%- endif %}
+          </div>
 
           <!-- Latest posts -->
           {% if page.latest_posts -%}
@@ -100,7 +102,7 @@ layout: default
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h4 style="margin-top: 2rem; margin-bottom: 0.3rem;"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h4>
+            <h4 style="margin-top: 3.5rem; margin-bottom: 0.3rem;"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h4>
             {%- include selected_papers.html %}
           {%- endif %}
 

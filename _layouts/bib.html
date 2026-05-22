@@ -5,7 +5,21 @@ layout: default
 <div class="publication-row">
   {%- if site.enable_publication_thumbnails -%}
     <div class="publication-responsive-2cols">
-      {% if entry.preview contains '://' -%}
+      {%- if entry.preview_video -%}
+        {%- if entry.preview_video contains 'youtube.com/embed' or entry.preview_video contains 'youtube-nocookie.com/embed' -%}
+        <div class="preview-video-container">
+          <iframe class="preview-video-iframe" src="{{ entry.preview_video }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        {%- elsif entry.preview_video contains '://' -%}
+        <video class="preview" autoplay loop muted playsinline preload="auto">
+          <source src="{{ entry.preview_video }}" type="video/mp4">
+        </video>
+        {%- else -%}
+        <video class="preview" autoplay loop muted playsinline preload="auto">
+          <source src="{{ entry.preview_video | prepend: '/assets/video/publication_preview/' | relative_url }}" type="video/mp4">
+        </video>
+        {%- endif -%}
+      {%- elsif entry.preview contains '://' -%}
       <img class="preview" src="{{ entry.preview }}">
       {%- else -%}
         {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
@@ -264,4 +278,10 @@ layout: default
 
     </div>
   </div>
+
+  {%- if entry.oneliner -%}
+  <div class="publication-responsive-3col-desc">
+    <p class="publication-oneliner">{{ entry.oneliner }}</p>
+  </div>
+  {%- endif -%}
 </div>
