@@ -16,6 +16,8 @@
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0,0,0,.1);
   --global-card-bg-color: #{$white-color};
+  --global-news-link-color: #5a2e8c;
+  --global-news-link-hover-color: #3f1d66;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -61,6 +63,8 @@ html[data-theme='dark'] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
+  --global-news-link-color: #c8a8e8;
+  --global-news-link-hover-color: #dcc4f0;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;

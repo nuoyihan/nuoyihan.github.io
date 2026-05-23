@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presenting Robotic Metamaterials at CHI 2024, Honolulu
+Presenting <a href = "https://www.violethan.com/publications/rmm/">Robotic Metamaterials</a> at CHI 2024, Honolulu

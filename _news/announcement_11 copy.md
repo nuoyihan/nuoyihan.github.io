@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Gave a talk on adaptive phyiscal interfaces in the Robotic Caregiving and Human Interaction Lab at CMU RI :)
+Gave a talk on adaptive phyiscal interfaces in the <a href = "https://rchi-lab.github.io/">Robotic Caregiving and Human Interaction Lab</a> at CMU RI :)

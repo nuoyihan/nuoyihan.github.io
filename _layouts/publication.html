@@ -55,7 +55,7 @@ related_publications:
     <a class = "publication-venue" href={{page.entry.venue_link}}>{{page.entry.venue}}</a>
     
     {%- if page.entry.fig1 != blank -%}
-        <div class="row">
+        <div class="row publication-media">
             <div class="col-sm mt-3 mt-md-0">
                 {% include figure.html path=page.entry.fig1 title="figure 1" class="img-fluid " %}
             </div>
@@ -72,7 +72,7 @@ related_publications:
     {% if page.entry.embed_videofigure != blank %}
         {% assign embed_video_link = page.entry.embed_videofigure %}
         <div class = "publication-header">Video Figure</div>
-        <div class="row">
+        <div class="row publication-media">
             <div class="col-sm mt-3 mt-md-0">
                 <div class="video_container">
                     <iframe class = "responsive-iframe" src= "{{embed_video_link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -83,7 +83,7 @@ related_publications:
     {% if page.entry.embed_talk != blank %}
         {% assign embed_talk_link = page.entry.embed_talk %}
         <div class = "publication-header">Talk</div>
-        <div class="row">
+        <div class="row publication-media">
             <div class="col-sm mt-3 mt-md-0">
                 <div class="video_container">
                     <iframe class = "responsive-iframe" src= "{{embed_talk_link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

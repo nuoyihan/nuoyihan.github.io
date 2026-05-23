@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented Parametric Haptics at UIST, San Francisco
+Presented <a href = "https://www.violethan.com/publications/parametrichaptics/">Parametric Haptics</a> at UIST, San Francisco

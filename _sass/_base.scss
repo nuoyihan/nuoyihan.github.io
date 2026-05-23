@@ -296,6 +296,37 @@ blockquote {
   height: 100%;
 }
 
+// Constrain header figure and embedded video/talk on publication detail pages
+// so they don't stretch with the wider 1400px content area.
+.publication-media {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Constrain inline media on /projects/ pages, which use raw markdown with
+// inline-styled iframe wrappers (padding-top: 56.25%) and unconstrained images.
+body.collection-projects {
+  .post article {
+    img,
+    video,
+    iframe {
+      max-width: 800px;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    // Inline aspect-ratio wrappers (e.g. Vimeo embeds in markdown).
+    div[style*="56.25%"] {
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
 .publication-row {
   display: flex;
   gap: 10px;
@@ -1488,6 +1519,25 @@ li-news {
 .news table.table th,
 .news table.table td {
   font-size: 0.85rem !important;
+}
+
+// Inline links inside news items: muted dark/grayish purple so they don't
+// pull focus from the news content. Keep the brighter theme color for
+// .news-title (the announcement-permalink anchor).
+.news td a:not(.news-title) {
+  color: var(--global-news-link-color);
+  text-decoration-thickness: 1px;
+
+  &:hover {
+    color: var(--global-news-link-hover-color);
+    text-decoration-thickness: 2px;
+  }
+}
+
+// Make bold text in news items more emphatic.
+.news td strong,
+.news td b {
+  font-weight: 600;
 }
 
 .text {

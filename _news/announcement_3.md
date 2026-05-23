@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented BlendMR at ISS, first research and first <b>best paper</b>! gotta keep it up. Pittsburgh
+Presented <a href = "https://www.violethan.com/publications/blendmr/">BlendMR</a> at ISS, first research and first <b>best paper</b>! gotta keep it up. Pittsburgh
