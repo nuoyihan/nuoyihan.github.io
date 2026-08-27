@@ -15,7 +15,7 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I’m a 3rd-year PhD student at Carnegie Mellon University. I am advised by [Professor Alexandra Ion](http://alexandraion.com/) in the [Interactive Structures Lab](https://interactive-structures.org/) at CMU's [Human-Computer Interaction Institute](https://hcii.cmu.edu/). I am a recipient of the [Qualcomm Innovation Fellowship](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2026-north-america). 
+I’m a 4th-year PhD student at Carnegie Mellon University. I am advised by [Professor Alexandra Ion](http://alexandraion.com/) in the [Interactive Structures Lab](https://interactive-structures.org/) at CMU's [Human-Computer Interaction Institute](https://hcii.cmu.edu/). I am a recipient of the [Qualcomm Innovation Fellowship](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2026-north-america). 
 
 <br>
 <span style="font-size: 1.0em;font-weight:bolder;">I envision physical AI taking many forms in our everyday lives, augmenting how we live and opening new interaction opportunities beyond automating mundane tasks.</span> I pursue this from three angles. I explore new embodiments, such as everyday objects that become proactive robotic agents. I develop user modeling and adaptation methods for individual users and their contexts. And I design new interactive systems that treat the physical world itself as the interface.
