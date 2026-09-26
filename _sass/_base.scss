@@ -539,8 +539,8 @@ a.publication-materials{
 .navbar {
   box-shadow: none;
   border-bottom: 0px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  // Translucent background only, so popups inside the navbar stay opaque
+  background-color: color-mix(in srgb, var(--global-bg-color) 95%, transparent);
 }
 
 .navbar .dropdown-menu {
@@ -590,10 +590,45 @@ a.publication-materials{
     }
 
     .chinese-name {
+      position: relative;
       font-family: 'Noto Serif SC', 'Songti SC', 'STSong', serif;
       font-weight: 500;
       font-size: 0.9em;
       letter-spacing: 0.05em;
+      cursor: help;
+
+      // Small note under the Chinese name, shown on hover or keyboard focus
+      .name-meaning {
+        display: none;
+        position: absolute;
+        top: calc(100% + 0.5rem);
+        left: 0;
+        width: 16rem;
+        padding: 0.5rem 0.7rem;
+        background: var(--global-bg-color);
+        border: 1px solid var(--global-divider-color);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        font-family: var(--font-body);
+        font-size: 0.8rem;
+        font-weight: 400;
+        letter-spacing: normal;
+        line-height: 1.45;
+        white-space: normal;
+        color: var(--global-text-color-light);
+        z-index: 1100;
+      }
+
+      .name-meaning-more {
+        display: block;
+        margin-top: 0.4rem;
+        font: inherit;
+        color: inherit;
+      }
+
+      &:hover .name-meaning,
+      &:focus .name-meaning {
+        display: block;
+      }
     }
   }
 
