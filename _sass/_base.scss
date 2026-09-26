@@ -3,6 +3,11 @@
  ******************************************************************************/
 
 // Typography
+// To go back to the old look, set both variables to 'Roboto', sans-serif.
+:root {
+  --font-body: 'Palatino Linotype', Palatino, 'Book Antiqua', 'URW Palladio L', serif;
+  --font-heading: 'Roboto Condensed', 'Roboto', sans-serif;
+}
 
 p,
 h1,
@@ -17,7 +22,23 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+// The theme's body weight is 300, so "bolder" only reaches 400, which
+// looks regular in fonts without a light weight (e.g. Palatino).
+strong,
+b {
+  font-weight: 700;
 }
 
 hr {
@@ -556,7 +577,24 @@ a.publication-materials{
   }
 
   .navbar-brand {
-    color: var(--global-text-color);
+    color: var(--global-theme-color);
+
+    span {
+      color: var(--global-theme-color);
+    }
+
+    .name-separator {
+      color: var(--global-divider-color);
+      font-weight: 300;
+      margin: 0 0.35em 0 0.1em;
+    }
+
+    .chinese-name {
+      font-family: 'Noto Serif SC', 'Songti SC', 'STSong', serif;
+      font-weight: 500;
+      font-size: 0.9em;
+      letter-spacing: 0.05em;
+    }
   }
 
   .navbar-nav .nav-item .nav-link {
@@ -1476,7 +1514,7 @@ nav[data-toggle="toc"] {
   padding: 70px 0;
   box-sizing:border-box;
   -moz-box-sizing:border-box;
-  font-family: 'Roboto';
+  font-family: var(--font-heading);
   text-transform: none;
 }
 .prj-container:hover:after, .prj-container:hover:before {
@@ -1548,4 +1586,55 @@ li-news {
 #root {
   height: 50%;
   width: 100%;
+}
+
+// Links styled like body text (no theme color)
+a.subtle-link {
+  color: var(--global-text-color);
+  border-bottom: 1px dashed;
+
+  &:hover {
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+}
+
+// Smaller text and tighter paragraph spacing in the homepage bio
+.about-text {
+  p,
+  li {
+    font-size: 0.95rem;
+  }
+
+  p,
+  ul {
+    margin-bottom: 0.6rem;
+  }
+}
+
+// Faint purple links for papers cited inline in the homepage bio
+a.paper-link {
+  color: color-mix(in srgb, var(--global-theme-color) 55%, var(--global-bg-color));
+
+  &:hover {
+    color: var(--global-theme-color);
+  }
+}
+
+// More about me text: small and gray, with links (Yiming) in the theme violet
+.about-toggle-text,
+.about-toggle-text .about-chat {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+}
+
+.about-toggle-text {
+  margin-top: 0.4rem;
+  line-height: 1.5;
+}
+
+// "Beyond research, chat with me about..." line in More about me
+.about-chat {
+  display: block;
+  margin-top: 0.4rem;
 }

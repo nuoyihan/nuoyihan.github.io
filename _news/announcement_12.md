@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Life is... CHI grind... Besides that, virtually presented *Objects with Arms* (to update) at IEEE RO-MAN. Taking HRI and TAing HAI ((H+I) x2), working with great students. Looking forward to presenting new work on building a user model for personalized embodied assistance at UIST!
+Presented <a href="https://www.violethan.com/publications/objectswitharms/">Objects with Arms</a> at RO-MAN (virtually), and Detroit next for <a href="https://www.violethan.com/publications/priorsofu/">Priors of U</a> at UIST! Life is...CHI grind. 

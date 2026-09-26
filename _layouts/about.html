@@ -59,26 +59,29 @@ layout: default
                         <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>&nbsp;
                         <a href="https://twitter.com/{{ site.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
                     </span>. 
-                    <button class = "moreabt" onclick="toggleText()" id="textButton">
+                    <button class="moreabt" onclick="toggleAbout('moreText')" id="moreTextButton" data-label="More about me">
                       More about me.
-                  </button>
-                    <span id="moreText" style = "display:none;"> I enjoy running, boxing, painting, making food and cocktails (which alex once said is an assembly task in a HRC study design setting)... and hanging with my awesome friends and <a href="https://y0mingzhang.github.io/">Yiming</a>, among other things.
+                    </button>
+                    <span id="moreText" class="about-toggle-text" style="display:none;">I enjoy running, boxing, painting, making food and cocktails (which alex once said is an assembly task in a HRC study design setting)... and hanging with my awesome friends and <a href="https://y0mingzhang.github.io/">Yiming</a>, among other things. 
+                      <span class="about-chat">Beyond research, chat with me about: why/how I chose art &amp; design -> HCI -> HRI as well, values on a meaningful life amid increasing automation, the people I admire and try to do imitation learning on, hosting house parties, hip-hop, making use of AI tools,attending CMU pre-college applying ED and coming back...</span>
                     </span>
 
                     <script>
-                      function toggleText() {
-                          var container = document.querySelector('.about-intro-news');
-                          var showMoreText = document.getElementById("moreText");
-                          var buttonText = document.getElementById("textButton");
-                          if (showMoreText.style.display == "inline") {
-                              showMoreText.style.display = "none";
-                              container.style.height = "";
-                              buttonText.innerHTML = "More about me.";
-                          }
-                          else {
-                              container.style.height = container.offsetHeight + "px";
-                              showMoreText.style.display = "inline";
-                              buttonText.innerHTML = "More about me:";
+                      function toggleAbout(id) {
+                          // Pin the news box to its current height so it doesn't grow with the extra text.
+                          var news = document.querySelector('.about-news');
+                          ['moreText'].forEach(function (otherId) {
+                              var text = document.getElementById(otherId);
+                              var button = document.getElementById(otherId + 'Button');
+                              var open = otherId === id && text.style.display !== 'block';
+                              if (open && news) {
+                                  news.style.height = news.offsetHeight + 'px';
+                              }
+                              text.style.display = open ? 'block' : 'none';
+                              button.innerHTML = button.dataset.label + (open ? ':' : '.');
+                          });
+                          if (news && document.getElementById(id).style.display === 'none') {
+                              news.style.height = '';
                           }
                       }
                   </script>

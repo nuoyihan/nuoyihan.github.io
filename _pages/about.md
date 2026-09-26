@@ -15,13 +15,22 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I’m a 4th-year PhD student at Carnegie Mellon University. I am advised by [Professor Alexandra Ion](http://alexandraion.com/) in the [Interactive Structures Lab](https://interactive-structures.org/) at CMU's [Human-Computer Interaction Institute](https://hcii.cmu.edu/). I am a recipient of the [Qualcomm Innovation Fellowship](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2026-north-america). 
+I’m a 4th-year PhD student at Carnegie Mellon University’s [Human-Computer Interaction Institute](https://hcii.cmu.edu/), advised by [Professor Alexandra Ion](http://alexandraion.com/) in the [Interactive Structures Lab](https://interactive-structures.org/), and a [2026 Qualcomm Innovation Fellow](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2026-north-america).
 
-<br>
+I build toward a future of **diverse personal robots** that understand us and fit into our everyday lives. I work on this from different angles:
+
+- **How can robots understand us?** What do robots need to know about each person, and how can they learn it from everyday activity with minimal user burden? Can we combine the open-world knowledge of foundation models with the structured, uncertainty-aware reasoning of probabilistic models to get the best of both? ([Priors of U](/publications/priorsofu/){: .paper-link}, [DBN + LLM](/publications/DBN/){: .paper-link}, [Object Agents](/publications/objectagents/){: .paper-link}).
+- **What forms can personal robots take?** What capabilities and interactions does each form enable, and how does form shape how people perceive and work with them? ([Object Agents](/publications/objectagents/){: .paper-link}, [LayMo](/publications/Laymo/){: .paper-link}, [Objects with Arms](/publications/objectswitharms/){: .paper-link}).
+- **How can interfaces blend into our lives?** How can interfaces build on the objects and spaces we already have? ([Parametric Haptics](/publications/parametrichaptics/){: .paper-link}, [BlendMR](/publications/blendmr/){: .paper-link}).
+
+See [publications](/publications/) for more!
+
+Previously, I was a research scientist intern at Meta Reality Labs (2024) and started technical HCI research with [Professor David Lindlbauer](https://www.davidlindlbauer.com/){: .subtle-link} in the [Augmented Perception Lab](https://augmented-perception.org/){: .subtle-link} (2022).
+
+<!-- previous version:
+I’m a 4th-year PhD student at Carnegie Mellon University. I am advised by [Professor Alexandra Ion](http://alexandraion.com/) in the [Interactive Structures Lab](https://interactive-structures.org/) at CMU's [Human-Computer Interaction Institute](https://hcii.cmu.edu/). I am a recipient of the [Qualcomm Innovation Fellowship](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2026-north-america).
 <span style="font-size: 1.0em;font-weight:bolder;">I envision physical AI taking many forms in our everyday lives, augmenting how we live and opening new interaction opportunities beyond automating mundane tasks.</span> I pursue this from three angles. I explore new embodiments, such as everyday objects that become proactive robotic agents. I develop user modeling and adaptation methods for individual users and their contexts. And I design new interactive systems that treat the physical world itself as the interface.
-
-<br>
-In summer 2024, I worked as a research scientist intern at Meta Reality Labs. In summer 2022, I started technical HCI research with Professor David Lindlbauer in the Augmented Perception Lab. 
+-->
 
 
 <!-- <span style="font-size: 1.0em;font-weight:bolder;"> Hi! I’m [Violet](https://nuoyihan.github.io). I’m a 3rd year PhD student advised by [Professor Alexandra Ion](http://alexandraion.com/) in the [Interactive Structures Lab](https://interactive-structures.org/), at [Carnegie Mellon University](https://www.cmu.edu/)’s [Human-Computer Interaction Institute](https://hcii.cmu.edu/).</span> I have also worked with [Professor David Lindlbauer](https://www.davidlindlbauer.com/) in the [Augmented Perception Lab](https://augmented-perception.org/) as a Masters student.
