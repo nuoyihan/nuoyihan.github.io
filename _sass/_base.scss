@@ -415,8 +415,10 @@ body.collection-projects {
 }
 
 @media (max-width: 700px) {
+  // Stack plainly on phones. As a flex column, the preview box of an embedded
+  // YouTube preview collapsed and overlapped the paper's text.
   .publication-row {
-    flex-direction: column;
+    display: block;
   }
 }
 .publication-header{
@@ -1059,7 +1061,9 @@ footer.sticky-bottom {
       .preview-video-container {
         position: relative;
         width: 100%;
-        padding-top: 56.25%;
+        // aspect-ratio instead of the padding-top: 56.25% trick: percentage
+        // padding counts as 0 when a stacked (phone) flex column sizes itself.
+        aspect-ratio: 16 / 9;
         overflow: hidden;
       }
 
