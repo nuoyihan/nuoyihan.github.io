@@ -11,5 +11,5 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 3
-cv_pdf: cv-2026-0827.pdf
+cv_pdf: cv-2026-1009.pdf
 ---
