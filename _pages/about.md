@@ -25,7 +25,7 @@ I build toward a future of **diverse personal robots** that understand us and fi
 
 See [publications](/publications/) for more!
 
-Previously, I was a research scientist intern at Meta Reality Labs (2024) and started technical HCI research with [Professor David Lindlbauer](https://www.davidlindlbauer.com/){: .subtle-link} in the [Augmented Perception Lab](https://augmented-perception.org/){: .subtle-link} (2022).
+I was a research scientist intern at Meta Reality Labs (summer 2024) and started technical HCI research with [Professor David Lindlbauer](https://www.davidlindlbauer.com/){: .subtle-link} in the [Augmented Perception Lab](https://augmented-perception.org/){: .subtle-link} (summer 2022).
 
 <!-- previous version:
 I’m a 4th-year PhD student at Carnegie Mellon University. I am advised by [Professor Alexandra Ion](http://alexandraion.com/) in the [Interactive Structures Lab](https://interactive-structures.org/) at CMU's [Human-Computer Interaction Institute](https://hcii.cmu.edu/). I am a recipient of the [Qualcomm Innovation Fellowship](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2026-north-america).
