@@ -3,10 +3,46 @@ layout: default
 ---
 
 <!-- cv.html -->
+<style>
+	.cv-pages canvas { display: block; width: 100%; height: auto; margin: 0 auto 12px; box-shadow: 0 1px 4px rgba(0,0,0,0.2); }
+	.cv-mobile { display: none; }
+	@media (max-width: 768px) {
+		.cv-desktop { display: none !important; }
+		.cv-mobile { display: block; }
+	}
+</style>
+
 <div class="post">
 
-	<div style="display: flex; justify-content: center;">
+	<div class="cv-desktop" style="display: flex; justify-content: center;">
 		<object data="../assets/pdf/{{ page.cv_pdf }}" style="width: 100%; max-width: 750px; height: 1000px;" type='application/pdf'></object>
 	</div>
 
+	<div class="cv-mobile">
+		<div class="cv-pages" id="cv-pages"></div>
+	</div>
+
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+	(function () {
+		if (!window.matchMedia('(max-width: 768px)').matches || !window.pdfjsLib) return;
+		pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+		var container = document.getElementById('cv-pages');
+		pdfjsLib.getDocument('../assets/pdf/{{ page.cv_pdf }}').promise.then(function (pdf) {
+			var chain = Promise.resolve();
+			for (var i = 1; i <= pdf.numPages; i++) {
+				chain = chain.then(pdf.getPage.bind(pdf, i)).then(function (pg) {
+					var scale = (container.clientWidth / pg.getViewport({ scale: 1 }).width) * (window.devicePixelRatio || 1);
+					var vp = pg.getViewport({ scale: scale });
+					var canvas = document.createElement('canvas');
+					canvas.width = vp.width;
+					canvas.height = vp.height;
+					container.appendChild(canvas);
+					return pg.render({ canvasContext: canvas.getContext('2d'), viewport: vp }).promise;
+				});
+			}
+		});
+	})();
+</script>
