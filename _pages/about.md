@@ -17,11 +17,11 @@ social: true  # includes social icons at the bottom of the page
 ---
 I’m a 4th-year PhD student at Carnegie Mellon University’s [Human-Computer Interaction Institute](https://hcii.cmu.edu/), advised by [Professor Alexandra Ion](http://alexandraion.com/) in the [Interactive Structures Lab](https://interactive-structures.org/), and a [2026 Qualcomm Innovation Fellow](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2026-north-america).
 
-I build toward a future of **diverse personal robots** that understand us and fit into our everyday lives. I work on this from different angles:
+I build toward a future of **diverse personal robots** that understand us and fit into our everyday lives. I study how these embodied agents **make decisions** in human environments and what **forms** they should take to work alongside people. I approach this from three angles:
 
 - **How can robots understand us?** What do robots need to know about each person, and how can they learn it from everyday activity with minimal user burden? Can we combine the open-world knowledge of foundation models with the structured, uncertainty-aware reasoning of probabilistic models to get the best of both? ([Priors of U](/publications/priorsofu/){: .paper-link}, [DBN + LLM](/publications/DBN/){: .paper-link}, [Object Agents](/publications/objectagents/){: .paper-link}).
 - **What forms can personal robots take?** What capabilities and interactions does each form enable, and how does form shape how people perceive and work with them? ([Object Agents](/publications/objectagents/){: .paper-link}, [LayMo](/publications/Laymo/){: .paper-link}, [Objects with Arms](/publications/objectswitharms/){: .paper-link}).
-- **How can interfaces blend into our lives?** How can interfaces build on the objects and spaces we already have? ([Parametric Haptics](/publications/parametrichaptics/){: .paper-link}, [BlendMR](/publications/blendmr/){: .paper-link}).
+- **How can everyday objects become robots and interfaces?** Can we augment the things and spaces around us with movement, manipulation, haptics, and digital information? ([Object Agents](/publications/objectagents/){: .paper-link}, [Objects with Arms](/publications/objectswitharms/){: .paper-link}, [Parametric Haptics](/publications/parametrichaptics/){: .paper-link}, [BlendMR](/publications/blendmr/){: .paper-link}).
 
 See [publications](/publications/) for more!
 
