@@ -9,7 +9,7 @@ order: 20
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/vase/vasesketch.jpg" title="vase" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/vase/vasesketch.jpg" title="vase" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 

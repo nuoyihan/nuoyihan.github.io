@@ -15,7 +15,7 @@ order: 3
 
 <div class="row justify-content-sm-center">
 <div class="col-3 mt-3 mt-md-0">
-    <img src="{{ 'assets/img/utensils/ezgif-com-gif-maker-48.gif' | relative_url }}" class="img-fluid rounded" alt="utensils" width="100%">
+    <img src="{{ 'assets/img/utensils/ezgif-com-gif-maker-48.gif' | relative_url }}" class="img-fluid art-icon" alt="utensils">
 </div>
 </div>
 
@@ -25,11 +25,11 @@ Aero_ is a utensil set designed for visually impaired users, inspired by the con
 
 ### What can Aero_ do?
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/500435446" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+<div class="art-video"><div style="padding:56.34% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/500435446" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div></div>
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/screen-shot-2021-01-14-at-23-08-15.png" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/screen-shot-2021-01-14-at-23-08-15.png" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -41,7 +41,7 @@ In my class *Object Lessons* in 2018, we were prompted to design for diabled use
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/u2-copy.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/u2-copy.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -51,7 +51,7 @@ I used yellow foam for form-finding. I made 3D sketches by carving yellow foam, 
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/u1-2-copy.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/u1-2-copy.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -71,7 +71,7 @@ What if technology is added to the design?
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/screen-shot-2021-01-15-at-00-28-15.png" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/screen-shot-2021-01-15-at-00-28-15.png" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -81,7 +81,7 @@ Many pain-points currently exist in visually-impaired users' dining process. The
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/screen-shot-2021-01-14-at-23-49-16.png" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/screen-shot-2021-01-14-at-23-49-16.png" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -93,13 +93,20 @@ Utensils are perhaps the only "tools" in dining processes. For visually impaired
 
 The following are main "translations"/feedbacks in designing for visually impaired users.
 
-<div class="row justify-content-sm-center">
-<div class="col-sm-3 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/screen-shot-2021-01-16-at-18-33-09.png" title="utensils" class="img-fluid rounded" zoomable=true %}
+<div class="row align-items-center mb-3">
+<div class="col-md-6">
+<div class="row art-row align-items-center">
+<div class="col mt-3 mt-md-0">
+    {% include figure.html path="assets/img/utensils/screen-shot-2021-01-16-at-18-33-09.png" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
+</div>
+<div class="col-md-6 mt-3 mt-md-0" markdown="1">
 
 **01 - Tactile.** The sense of touch. Tactile designs for visually impaired users often offer simple and intuitive guidance, communicating information in a non-intrusive way. A commonly seen example for tactile design is tactile pavements.
+
+</div>
+</div>
 
 **02 - Braille.** Readable words for visually impaired users. Braille could be seen as an application of tactile design for visually impaired users. However, I listed it separately because as a part of the language for visually impaired users, braille itself could serve as a vehicle for communicating ideas.
 
@@ -115,7 +122,7 @@ To better understand the different kinds of feedbacks that could be potentially 
 
 <div class="row align-items-center">
 <div class="col-sm-5 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/canetroller.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/canetroller.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm-7 mt-3 mt-md-0" markdown="1">
 
@@ -128,7 +135,7 @@ To better understand the different kinds of feedbacks that could be potentially 
 
 <div class="row align-items-center">
 <div class="col-sm-5 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/wearablesys.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/wearablesys.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm-7 mt-3 mt-md-0" markdown="1">
 
@@ -141,7 +148,7 @@ To better understand the different kinds of feedbacks that could be potentially 
 
 <div class="row align-items-center">
 <div class="col-sm-5 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/haptiread.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/haptiread.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm-7 mt-3 mt-md-0" markdown="1">
 
@@ -154,7 +161,7 @@ To better understand the different kinds of feedbacks that could be potentially 
 
 <div class="row align-items-center">
 <div class="col-sm-5 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/fingemt.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/fingemt.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm-7 mt-3 mt-md-0" markdown="1">
 
@@ -182,7 +189,7 @@ From studying the research projects studied above, I gained the following insigh
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/ula1.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/ula1.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -193,7 +200,7 @@ From studying the research projects studied above, I gained the following insigh
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/ul2.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/ul2.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -204,7 +211,7 @@ From studying the research projects studied above, I gained the following insigh
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/stb3.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/stb3.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -213,7 +220,7 @@ From studying the research projects studied above, I gained the following insigh
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/ul4.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/ul4.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -221,7 +228,7 @@ From studying the research projects studied above, I gained the following insigh
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/ul5.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/ul5.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -246,16 +253,16 @@ I determined each utensil to have two areas that could afford interactions: **th
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/holdinggestures-copy.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/holdinggestures-copy.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
-<div class="row justify-content-sm-center">
+<div class="row art-row align-items-center justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/img-3.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/img-3.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/utensilsareas-copy.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/utensilsareas-copy.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -269,7 +276,7 @@ To achieve the proposed interaction in storyboard 3 (utensils guiding the user t
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/screen-shot-2021-01-17-at-17-05-26.png" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/screen-shot-2021-01-17-at-17-05-26.png" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -277,7 +284,7 @@ To achieve the proposed interaction in storyboard 3 (utensils guiding the user t
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/rfidd-1.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/rfidd-1.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -289,7 +296,7 @@ To achieve the proposed interaction in storyboard 4, the spoon needs to be able 
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/softrobotics.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/softrobotics.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -297,7 +304,7 @@ To find the right kind of technology that could help achieve this, I first looke
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/gimbal.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/gimbal.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -305,7 +312,7 @@ Looking for inspirations from existing products, I found **portable gimbals** to
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/imu.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/imu.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -315,7 +322,7 @@ Looking at the technical components of gimbals, I allocated **Inertial Measureme
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/adafruit-products-m0-drv2605-bb.png" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/adafruit-products-m0-drv2605-bb.png" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -331,12 +338,12 @@ I prototyped my proposed interactions onto the CAD models of my utensils design 
 
 01 Locate a specific plate with the help of haptics feedback
 
-<div class="row justify-content-sm-center">
+<div class="row art-row align-items-center justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
-    <img src="{{ 'assets/img/utensils/locate-small.gif' | relative_url }}" class="img-fluid rounded" alt="utensils" width="100%">
+    <img src="{{ 'assets/img/utensils/locate-small.gif' | relative_url }}" class="img-fluid rounded art-img" alt="utensils">
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    <img src="{{ 'assets/img/utensils/ezgif-com-gif-maker-8.gif' | relative_url }}" class="img-fluid rounded" alt="utensils" width="100%">
+    <img src="{{ 'assets/img/utensils/ezgif-com-gif-maker-8.gif' | relative_url }}" class="img-fluid rounded art-img" alt="utensils">
 </div>
 </div>
 
@@ -344,7 +351,7 @@ I prototyped my proposed interactions onto the CAD models of my utensils design 
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    <img src="{{ 'assets/img/utensils/ezgif-com-gif-maker-9.gif' | relative_url }}" class="img-fluid rounded" alt="utensils" width="100%">
+    <img src="{{ 'assets/img/utensils/ezgif-com-gif-maker-9.gif' | relative_url }}" class="img-fluid rounded art-img" alt="utensils">
 </div>
 </div>
 
@@ -352,7 +359,7 @@ I prototyped my proposed interactions onto the CAD models of my utensils design 
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    <img src="{{ 'assets/img/utensils/ezgif-com-gif-maker-10.gif' | relative_url }}" class="img-fluid rounded" alt="utensils" width="100%">
+    <img src="{{ 'assets/img/utensils/ezgif-com-gif-maker-10.gif' | relative_url }}" class="img-fluid rounded art-img" alt="utensils">
 </div>
 </div>
 
@@ -360,7 +367,7 @@ I prototyped my proposed interactions onto the CAD models of my utensils design 
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    <img src="{{ 'assets/img/utensils/ezgif-com-gif-maker-11.gif' | relative_url }}" class="img-fluid rounded" alt="utensils" width="100%">
+    <img src="{{ 'assets/img/utensils/ezgif-com-gif-maker-11.gif' | relative_url }}" class="img-fluid rounded art-img" alt="utensils">
 </div>
 </div>
 
@@ -370,12 +377,12 @@ I am currently in the stage of testing different vibration patterns with an Ardu
 
 I would to like to continue my experimentations with an Adafruit DRV2605L haptic controller, an inertial measurement unit, and radio frequency identification tags. After the experimentation phase, I would like to make 3D-print modified versions of my CAD utensil models, and add the motors etc. onto them for them to become functioning prototypes. After which, I hope to perform user testing, and use the feedbacks to move the prototypes forward.
 
-<div class="row justify-content-sm-center">
+<div class="row art-row align-items-center justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/vibrate.jpg" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/vibrate.jpg" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/utensils/screen-shot-2020-12-29-at-20-18-44.png" title="utensils" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/utensils/screen-shot-2020-12-29-at-20-18-44.png" title="utensils" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 

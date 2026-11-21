@@ -8,8 +8,8 @@ order: 15
 ---
 
 <div class="row justify-content-sm-center">
-<div class="col-sm-5 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/shirt/shn-copy.jpg" title="shirt" class="img-fluid rounded" zoomable=true %}
+<div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/shirt/shn-copy.jpg" title="shirt" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -17,11 +17,11 @@ order: 15
 <b>Year:</b> 2019<br>
 <b>Tools:</b> fabric</p>
 
-<div class="row justify-content-sm-center">
+<div class="row art-row align-items-center justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/shirt/sh1-copy.jpg" title="shirt" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/shirt/sh1-copy.jpg" title="shirt" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/shirt/sh13-copy.jpg" title="shirt" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/shirt/sh13-copy.jpg" title="shirt" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>

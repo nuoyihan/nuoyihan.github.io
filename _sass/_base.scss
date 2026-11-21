@@ -339,11 +339,15 @@ body.collection-projects {
       margin-right: auto;
     }
 
-    // Inline aspect-ratio wrappers (e.g. Vimeo embeds in markdown).
+    // Inline aspect-ratio wrappers (e.g. Vimeo embeds in markdown). The padding
+    // trick is relative to the full-width parent, so swap it for aspect-ratio once
+    // the width is capped, otherwise black bands appear above/below the player.
     div[style*="56.25%"] {
       max-width: 800px;
       margin-left: auto;
       margin-right: auto;
+      padding: 0 !important;
+      aspect-ratio: 16 / 9;
     }
   }
 }
@@ -1676,4 +1680,43 @@ a.paper-link {
 .about-chat {
   display: block;
   margin-top: 0.4rem;
+}
+
+// Art project images (migrated from Cargo): never upscale past natural size, cap tall ones.
+// Scoped like the projects rule above so it wins over its 800px max-width.
+body.collection-projects .post article {
+  .art-img {
+    width: auto !important;
+    max-width: min(100%, 720px);
+    max-height: 520px;
+  }
+
+  // Images sharing a row: keep the row no wider than a single image, and give
+  // every image the same height cap so a tall shot doesn't tower over wide ones
+  .row.art-row.justify-content-sm-center {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .art-row .art-img {
+    max-height: 340px;
+  }
+
+  // Logo / icon animations
+  .art-icon {
+    width: auto !important;
+    max-width: 140px;
+    max-height: 140px;
+  }
+
+  // Video embeds: the wrapper sets the width so the aspect-ratio padding matches the player
+  .art-video {
+    max-width: 800px;
+    margin: 1rem auto;
+
+    > div {
+      max-width: none;
+    }
+  }
 }

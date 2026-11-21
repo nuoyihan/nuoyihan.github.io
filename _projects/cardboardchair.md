@@ -8,8 +8,8 @@ order: 6
 ---
 
 <div class="row justify-content-sm-center">
-<div class="col-sm-5 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/cardboardchair/bcc2.png" title="cardboardchair" class="img-fluid rounded" zoomable=true %}
+<div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/cardboardchair/bcc2.png" title="cardboardchair" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -32,7 +32,7 @@ I interviewed a professor specializing in empathetic design research on how seat
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/cardboardchair/boxes.jpg" title="cardboardchair" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/cardboardchair/boxes.jpg" title="cardboardchair" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -50,7 +50,7 @@ Triangle has stability. Among all geometric shapes, triangle is the most stable 
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/cardboardchair/triangles.jpg" title="cardboardchair" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/cardboardchair/triangles.jpg" title="cardboardchair" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -58,7 +58,7 @@ While triangle is the most stable shape, a sphere could probably be considered t
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/cardboardchair/screen-shot-2020-12-28-at-15-24-26.png" title="cardboardchair" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/cardboardchair/screen-shot-2020-12-28-at-15-24-26.png" title="cardboardchair" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -66,6 +66,6 @@ While triangle is the most stable shape, a sphere could probably be considered t
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/cardboardchair/cardboard.jpg" title="cardboardchair" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/cardboardchair/cardboard.jpg" title="cardboardchair" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>

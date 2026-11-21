@@ -9,7 +9,7 @@ order: 8
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/cd/199.jpg" title="cd" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/cd/199.jpg" title="cd" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -26,15 +26,15 @@ When one opens the package, they will see a short description of the movie, and 
 
 The back of the packaging is just black plastics, with a part of the inside picture revealed. Though this might not be an intentional design choice, it adds a sense of mystery and suspense that fits the movie's detective theme.
 
-<div class="row justify-content-sm-center">
+<div class="row art-row align-items-center justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/cd/img-1196.jpg" title="cd" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/cd/img-1196.jpg" title="cd" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/cd/img-1197.jpg" title="cd" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/cd/img-1197.jpg" title="cd" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/cd/img-1199.jpg" title="cd" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/cd/img-1199.jpg" title="cd" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -46,7 +46,7 @@ I determined the overall shape of the packaging design to be the shape of roll f
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/cd/screen-shot-2021-01-19-at-23-48-05.jpg" title="cd" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/cd/screen-shot-2021-01-19-at-23-48-05.jpg" title="cd" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -60,7 +60,7 @@ However, from testing with a low-fidelity prototype, this concept is proven to n
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/cd/screen-shot-2021-01-19-at-23-51-53.jpg" title="cd" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/cd/screen-shot-2021-01-19-at-23-51-53.jpg" title="cd" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -68,7 +68,7 @@ However, from testing with a low-fidelity prototype, this concept is proven to n
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/cd/screen-shot-2021-01-19-at-23-56-40.jpg" title="cd" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/cd/screen-shot-2021-01-19-at-23-56-40.jpg" title="cd" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -76,7 +76,7 @@ However, from testing with a low-fidelity prototype, this concept is proven to n
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/cd/screen-shot-2021-01-19-at-23-58-41.jpg" title="cd" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/cd/screen-shot-2021-01-19-at-23-58-41.jpg" title="cd" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -86,18 +86,18 @@ The face of the detective (main character) is not revealed in the front, to add 
 
 I transferred the image of the detective in action, and the short description of the film, (on the inside of the original packaging), to the back of the my packaging design. In this way, a user can pick up the packaging and quickly have a sense of the story, and they could better determine if they will want to watch this film.
 
-<div class="row justify-content-sm-center">
+<div class="row art-row align-items-center justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/cd/10744868720-mg-7422.jpg" title="cd" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/cd/10744868720-mg-7422.jpg" title="cd" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/cd/10.jpg" title="cd" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/cd/10.jpg" title="cd" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/cd/dvd3-copyy.jpg" title="cd" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/cd/dvd3-copyy.jpg" title="cd" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 

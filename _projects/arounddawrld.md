@@ -15,24 +15,24 @@ order: 2
 <b>Tools:</b> ARkit, Unity, Cinema4D, Blender, RealityComposer</p>
 
 <div class="row justify-content-sm-center">
-<div class="col-sm-8 mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/plaen-world2.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="col-3 mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/plaen-world2.gif' | relative_url }}" class="img-fluid art-icon" alt="arounddawrld">
 </div>
 </div>
 
 ### What is a day like in Around the World?
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/499582156" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+<div class="art-video"><div style="padding:56.34% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/499582156" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div></div>
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/atw-process-new.jpg" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/atw-process-new.jpg" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
 <div class="row justify-content-sm-center">
-<div class="col-sm-5 mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-45.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="col-sm-4 mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-45.gif' | relative_url }}" class="img-fluid art-icon" alt="arounddawrld">
 </div>
 </div>
 
@@ -52,7 +52,7 @@ However, at the same time as stress and anxiety levels grew more, **stress-relie
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/bgcovid.jpg" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/bgcovid.jpg" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -62,7 +62,7 @@ From researching academic papers, I found the factors below to be some of the fa
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/blank-board.jpg" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/blank-board.jpg" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -79,7 +79,7 @@ To better understand the situation and learn from potential users, I further con
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/screen-shot-2021-01-11-at-05-04-53.png" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/screen-shot-2021-01-11-at-05-04-53.png" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -95,7 +95,7 @@ My key insights from the interviews were:
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/screen-shot-2020-12-21-at-23-00-23.png" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/screen-shot-2020-12-21-at-23-00-23.png" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -107,7 +107,7 @@ From the observed individual's day, it can be seen he spends most of his time on
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/screen-shot-2021-01-04-at-17-26-44.png" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/screen-shot-2021-01-04-at-17-26-44.png" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -127,7 +127,7 @@ With key insights from the research process, I determined my design directions t
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/screen-shot-2020-12-22-at-14-59-55.png" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/screen-shot-2020-12-22-at-14-59-55.png" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -135,12 +135,12 @@ I decided to design **a mobile app** due to the ubiquitous nature of mobile devi
 
 #### Persona
 
-<div class="row justify-content-sm-center">
+<div class="row art-row align-items-center justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/miapersona.png" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/miapersona.png" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/leahpersona.png" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/leahpersona.png" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -162,19 +162,26 @@ Due to the nature of different travel destinations associating with different tr
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/aroundtheworld-newsb.jpg" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/aroundtheworld-newsb.jpg" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
 #### Time Schedule+Notification
 
-<div class="row justify-content-sm-center">
-<div class="col-sm-8 mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-47.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="row align-items-center mb-3">
+<div class="col-md-6">
+<div class="row art-row align-items-center">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-47.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
 </div>
+</div>
+<div class="col-md-6 mt-3 mt-md-0" markdown="1">
 
 From my research process, I found my user group to have **busy schedules**. In order for *Around the World* to help them relieve stress while not interrupting their day-to-day lives, travel activities should **not take ample amount of time**.
+
+</div>
+</div>
 
 Also, the user shouldn't have to manually go into the app to access an activities, which could become another mental burden for the user. Instead, **travel activities should be pushed to the user at intervals, being incorporated into their busy schedules.**
 
@@ -186,7 +193,7 @@ It is to note that: in the booking process days before the actual travel experie
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/user-journey-tokyo.jpg" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/user-journey-tokyo.jpg" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -196,7 +203,7 @@ From travel activities in the Tokyo example, I determined the structure of a vir
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/screen-shot-2020-12-22-at-15-26-39.png" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/screen-shot-2020-12-22-at-15-26-39.png" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -206,15 +213,15 @@ From travel activities in the Tokyo example, I determined the structure of a vir
 
 To prototype the proposed experience, I first built some 3D assets in **Cinema 4D** and **Blender**, and I also purchased some other 3D assets online.
 
-<div class="row justify-content-sm-center">
+<div class="row art-row align-items-center justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/screen-shot-2020-12-22-at-15-45-07.png" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/screen-shot-2020-12-22-at-15-45-07.png" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/screen-shot-2020-10-31-at-19-27-11.jpg" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/screen-shot-2020-10-31-at-19-27-11.jpg" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/screen-shot-2020-12-21-at-23-55-05.jpg" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/screen-shot-2020-12-21-at-23-55-05.jpg" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -222,15 +229,15 @@ To prototype the proposed experience, I first built some 3D assets in **Cinema 4
 
 I learned and experimented with using **Unity** and **ARKit** to develop AR scenes. I also tried Apple's new simple-and-intuitive **Reality Composer**.
 
-<div class="row justify-content-sm-center">
+<div class="row art-row align-items-center justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/screen-shot-2020-12-22-at-15-48-53.png" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/screen-shot-2020-12-22-at-15-48-53.png" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/screen-shot-2020-12-22-at-15-52-54.png" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/screen-shot-2020-12-22-at-15-52-54.png" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/ar-test.jpg" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/ar-test.jpg" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -242,145 +249,215 @@ The followings are the prototyped interactions for a day traveling in Tokyo in *
 
 *Tokyo example: Tokyo Tower and city scene*
 
-<div class="row justify-content-sm-center">
-<div class="col-sm mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-19.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="row align-items-center mb-3">
+<div class="col-md-6">
+<div class="row art-row align-items-center">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-19.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
-<div class="col-sm mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-21.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-21.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
 </div>
+</div>
+<div class="col-md-6 mt-3 mt-md-0" markdown="1">
 
 As the first interaction of the day, this activity is meant to set the "background" for the user's immersive travel experience, it helps **bring the user into the narrative.**
+
+</div>
+</div>
 
 ##### 02 Low Impact Exercise/Stretch
 
 *Tokyo example: riding the subway*
 
-<div class="row justify-content-sm-center">
-<div class="col-sm-4 mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-35.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="row align-items-center mb-3">
+<div class="col-md-6">
+<div class="row art-row align-items-center">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-35.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
 </div>
+</div>
+<div class="col-md-6 mt-3 mt-md-0" markdown="1">
 
 This activity serves to incorporate **a small exercise/stretch** in the user day. In the Tokyo example, it also helps sets the tone by letting the user "take" a standard local transportation.
+
+</div>
+</div>
 
 ##### 03 Tabletop Gaming
 
 *Tokyo example: Sumo wrestling*
 
-<div class="row justify-content-sm-center">
-<div class="col-sm mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-23.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="row align-items-center mb-3">
+<div class="col-md-6">
+<div class="row art-row align-items-center">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-23.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
-<div class="col-sm mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-27.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-27.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
 </div>
+</div>
+<div class="col-md-6 mt-3 mt-md-0" markdown="1">
 
 This interactive gaming section would be **a small break** in the user's study/work session to **ease their stress** from the intensive working session.
+
+</div>
+</div>
 
 ##### 04-1 Virtual Sightseeing
 
 *Tokyo example 1: temple*
 
-<div class="row justify-content-sm-center">
-<div class="col-sm mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-24.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="row align-items-center mb-3">
+<div class="col-md-6">
+<div class="row art-row align-items-center">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-24.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
-<div class="col-sm mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-25.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-25.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
-<div class="col-sm mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-26.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-26.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
 </div>
+</div>
+<div class="col-md-6 mt-3 mt-md-0" markdown="1">
 
 As a standard and one of the most important tourist experiences, sightseeing is also incorporated in *Around the World* in many ways. In this example, the user can **tour larger-than-a-person sites inside their room**.
+
+</div>
+</div>
 
 ##### 04-2 Virtual Sightseeing
 
 *Tokyo example 2: art museum*
 
-<div class="row justify-content-sm-center">
-<div class="col-sm mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-29.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="row align-items-center mb-3">
+<div class="col-md-6">
+<div class="row art-row align-items-center">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-29.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
-<div class="col-sm mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-40.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-40.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
 </div>
+</div>
+<div class="col-md-6 mt-3 mt-md-0" markdown="1">
 
 In this example, the user can **walk around his room viewing paintings on the wall, as if he is visiting an art museum**.
+
+</div>
+</div>
 
 ##### 04-3 Virtual Sightseeing
 
 *Tokyo example 3: aquarium*
 
-<div class="row justify-content-sm-center">
-<div class="col-sm mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-28.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="row align-items-center mb-3">
+<div class="col-md-6">
+<div class="row art-row align-items-center">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-28.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
-<div class="col-sm mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-34.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-34.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
 </div>
+</div>
+<div class="col-md-6 mt-3 mt-md-0" markdown="1">
 
 In this example, the user can **walk around his room looking for sea animals, as if he is visiting an aquarium**.
+
+</div>
+</div>
 
 ##### 05 Cooking
 
 *Tokyo example: Japanese dinner*
 
-<div class="row justify-content-sm-center">
-<div class="col-sm-8 mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-41.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="row align-items-center mb-3">
+<div class="col-md-6">
+<div class="row art-row align-items-center">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-41.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
 </div>
+</div>
+<div class="col-md-6 mt-3 mt-md-0" markdown="1">
 
 Allow **a more immersive travel experience** by guiding the user to cook and have a **local meal**.
+
+</div>
+</div>
 
 ##### 06-1 Attend a Local Festival
 
 *Tokyo example: fireworks festival (-1)*
 
-<div class="row justify-content-sm-center">
-<div class="col-sm mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-38.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="row align-items-center mb-3">
+<div class="col-md-6">
+<div class="row art-row align-items-center">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-38.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
-<div class="col-sm mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-39.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-39.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
 </div>
+</div>
+<div class="col-md-6 mt-3 mt-md-0" markdown="1">
 
 Allow **a more immersive travel experience** by letting the user experience a **traditional local event/festival**. In the Tokyo example, the user can also try on a traditional Japanese bath rope for the festival.
+
+</div>
+</div>
 
 ##### 06-2 Attend a Local Festival
 
 *Tokyo example: fireworks festival (-2)*
 
-<div class="row justify-content-sm-center">
-<div class="col-sm mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-30.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="row align-items-center mb-3">
+<div class="col-md-6">
+<div class="row art-row align-items-center">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-30.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
-<div class="col-sm mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-32.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-32.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
 </div>
+</div>
+<div class="col-md-6 mt-3 mt-md-0" markdown="1">
 
 Allow a **more immersive travel experience** by letting the user experience a **traditional local event/festival.**
+
+</div>
+</div>
 
 ##### 07 Night Window Scene
 
 *Tokyo example: city scene*
 
-<div class="row justify-content-sm-center">
-<div class="col-sm-4 mt-3 mt-md-0">
-    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-31.gif' | relative_url }}" class="img-fluid rounded" alt="arounddawrld" width="100%">
+<div class="row align-items-center mb-3">
+<div class="col-md-6">
+<div class="row art-row align-items-center">
+<div class="col mt-3 mt-md-0">
+    <img src="{{ 'assets/img/arounddawrld/ezgif-com-gif-maker-31.gif' | relative_url }}" class="img-fluid rounded art-img" alt="arounddawrld">
 </div>
 </div>
+</div>
+<div class="col-md-6 mt-3 mt-md-0" markdown="1">
 
 Serve as **the ending of the trip** at the end of the day.
+
+</div>
+</div>
 
 ### User Testing
 
@@ -388,7 +465,7 @@ Serve as **the ending of the trip** at the end of the day.
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/arounddawrld/what-is-usdz-wwdc-thumb800.png" title="arounddawrld" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/arounddawrld/what-is-usdz-wwdc-thumb800.png" title="arounddawrld" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 

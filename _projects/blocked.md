@@ -10,7 +10,7 @@ order: 15
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/blocked/blocksblocksblocks-copy.jpg" title="blocked" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/blocked/blocksblocksblocks-copy.jpg" title="blocked" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -31,12 +31,12 @@ I chose a coffee shop on campus as my place of observation. I sat there for an a
 
 ### The Problem
 
-<div class="row justify-content-sm-center">
+<div class="row art-row align-items-center justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/blocked/techneck-copy.jpg" title="blocked" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/blocked/techneck-copy.jpg" title="blocked" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/blocked/tn-p-copy.jpg" title="blocked" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/blocked/tn-p-copy.jpg" title="blocked" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -46,24 +46,24 @@ I decided to focus on people's bad postures when interacting with digital device
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/blocked/tn-p.jpg" title="blocked" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/blocked/tn-p.jpg" title="blocked" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/blocked/techneck-sb.jpg" title="blocked" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/blocked/techneck-sb.jpg" title="blocked" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
 ### Prototyping
 
-<div class="row justify-content-sm-center">
+<div class="row art-row align-items-center justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/blocked/prototyp-copy.jpg" title="blocked" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/blocked/prototyp-copy.jpg" title="blocked" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/blocked/prototyp.jpg" title="blocked" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/blocked/prototyp.jpg" title="blocked" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -75,11 +75,11 @@ Blocked is helpful for adjusting postures in many different interactions, whethe
 
 Magnets are embedded in each block to make the stacked composition stable.
 
-<div class="row justify-content-sm-center">
+<div class="row art-row align-items-center justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/blocked/blocksstacking.jpg" title="blocked" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/blocked/blocksstacking.jpg" title="blocked" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/blocked/duola-use-blocks.jpg" title="blocked" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/blocked/duola-use-blocks.jpg" title="blocked" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>

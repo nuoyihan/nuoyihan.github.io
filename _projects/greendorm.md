@@ -14,8 +14,8 @@ order: 10
 <b>Tools:</b> Rhino</p>
 
 <div class="row justify-content-sm-center">
-<div class="col-sm-5 mt-3 mt-md-0">
-    <img src="{{ 'assets/img/greendorm/ezgif-com-gif-maker-51.gif' | relative_url }}" class="img-fluid rounded" alt="greendorm" width="100%">
+<div class="col-3 mt-3 mt-md-0">
+    <img src="{{ 'assets/img/greendorm/ezgif-com-gif-maker-51.gif' | relative_url }}" class="img-fluid art-icon" alt="greendorm">
 </div>
 </div>
 
@@ -29,7 +29,7 @@ Campus Farm Green Dorm promotes a sustainable and healthy lifestyle for its resi
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/greendorm/dorm-1.jpg" title="greendorm" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/greendorm/dorm-1.jpg" title="greendorm" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -39,19 +39,26 @@ Campus Farm Green Dorm promotes a sustainable and healthy lifestyle for its resi
 
 I went on field trips to U-M Campus Farm to investigate the site, and to a certified green building nearby to hear the owner talk about the green building design.
 
-<div class="row justify-content-sm-center">
-<div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/greendorm/img-4729.jpg" title="greendorm" class="img-fluid rounded" zoomable=true %}
+<div class="row align-items-center mb-3">
+<div class="col-md-6">
+<div class="row art-row align-items-center">
+<div class="col mt-3 mt-md-0">
+    {% include figure.html path="assets/img/greendorm/img-4729.jpg" title="greendorm" class="img-fluid rounded art-img" zoomable=true %}
 </div>
-<div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/greendorm/img-4738.jpg" title="greendorm" class="img-fluid rounded" zoomable=true %}
+<div class="col mt-3 mt-md-0">
+    {% include figure.html path="assets/img/greendorm/img-4738.jpg" title="greendorm" class="img-fluid rounded art-img" zoomable=true %}
 </div>
-<div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/greendorm/img-4736.jpg" title="greendorm" class="img-fluid rounded" zoomable=true %}
+<div class="col mt-3 mt-md-0">
+    {% include figure.html path="assets/img/greendorm/img-4736.jpg" title="greendorm" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
+</div>
+<div class="col-md-6 mt-3 mt-md-0" markdown="1">
 
 The U-M Campus Farm is located around **15 minutes away from central and north campus**. It hosts programs and events for students to participate in activities relating to the production of **sustainable food and studies of food systems**. The farm's produce goes to the U-M dining.
+
+</div>
+</div>
 
 At present, there is **open land** at the U-M Campus Farm that is envisioned to be a future dormitory in this project.
 
@@ -59,7 +66,7 @@ Presently, features at the U-M Campus Farm include: a straw-bale building, a foo
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/greendorm/campusfarm.jpg" title="greendorm" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/greendorm/campusfarm.jpg" title="greendorm" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -72,8 +79,8 @@ The **south of the site faces the forest**. It would be ideal to maximize window
 #### Living Building Challenge
 
 <div class="row justify-content-sm-center">
-<div class="col-sm-5 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/greendorm/e284d95a57f6af79c6de7f672b273ad4.jpg" title="greendorm" class="img-fluid rounded" zoomable=true %}
+<div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/greendorm/e284d95a57f6af79c6de7f672b273ad4.jpg" title="greendorm" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -87,7 +94,7 @@ From the research process, I learned there are two kinds of solar energy systems
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/greendorm/untitled-artwork-24.jpg" title="greendorm" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/greendorm/untitled-artwork-24.jpg" title="greendorm" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -95,7 +102,7 @@ From the research process, I learned there are two kinds of solar energy systems
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/greendorm/img-0173.jpg" title="greendorm" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/greendorm/img-0173.jpg" title="greendorm" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -114,7 +121,7 @@ From the research process, I learned there are two kinds of solar energy systems
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/greendorm/solarenergy-copy.jpg" title="greendorm" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/greendorm/solarenergy-copy.jpg" title="greendorm" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -122,7 +129,7 @@ From the research process, I learned there are two kinds of solar energy systems
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/greendorm/screen-shot-2020-12-23-at-20-04-59.png" title="greendorm" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/greendorm/screen-shot-2020-12-23-at-20-04-59.png" title="greendorm" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -144,7 +151,7 @@ After conducting interviews, I defined my user group and made the following pers
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/greendorm/jimpam.jpg" title="greendorm" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/greendorm/jimpam.jpg" title="greendorm" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -160,7 +167,7 @@ The **main common area** is made up of three connected areas: the attached green
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/greendorm/kitchen-copy.jpg" title="greendorm" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/greendorm/kitchen-copy.jpg" title="greendorm" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -168,15 +175,15 @@ The main common area is also connected to an outdoor area and a "sky lounge".
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/greendorm/dorm2-2-copy.jpg" title="greendorm" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/greendorm/dorm2-2-copy.jpg" title="greendorm" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
 #### Building Structure
 
 <div class="row justify-content-sm-center">
-<div class="col-sm-5 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/greendorm/sheard-floorplans-copy.jpg" title="greendorm" class="img-fluid rounded" zoomable=true %}
+<div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/greendorm/sheard-floorplans-copy.jpg" title="greendorm" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -184,6 +191,6 @@ The main common area is also connected to an outdoor area and a "sky lounge".
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/greendorm/screen-shot-2020-12-24-at-21-05-00.png" title="greendorm" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/greendorm/screen-shot-2020-12-24-at-21-05-00.png" title="greendorm" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>

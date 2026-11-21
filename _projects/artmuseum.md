@@ -9,8 +9,8 @@ order: 4
 ---
 
 <div class="row justify-content-sm-center">
-<div class="col-sm-5 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/artmuseum/am1-copy.jpg" title="artmuseum" class="img-fluid rounded" zoomable=true %}
+<div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/artmuseum/am1-copy.jpg" title="artmuseum" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -19,7 +19,7 @@ order: 4
 <b>Tags:</b> [performance art]<br>
 <b>Tools:</b> found waste, Adobe Premiere</p>
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/390887903" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+<div class="art-video"><div style="padding:56.34% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/390887903" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div></div>
 
 *We play a group of long-admired "high-art" pieces.<br>
 But you might notice, we are exhibtied outdoors, instead of a white cube gallery.<br>

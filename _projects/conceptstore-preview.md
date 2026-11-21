@@ -20,43 +20,43 @@ This fictional store will be exhibting and selling archive "Deconstruction Fashi
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/1lou-53.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/1lou-53.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
-<div class="row justify-content-sm-center">
+<div class="row art-row align-items-center justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/cs3.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/cs3.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/cs1.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/cs1.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
-<div class="row justify-content-sm-center">
+<div class="row art-row align-items-center justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/cs2.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/cs2.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/cs4.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/cs4.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
-<div class="row justify-content-sm-center">
+<div class="row art-row align-items-center justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/700-2.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/700-2.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/700.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/700.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
-<div class="row justify-content-sm-center">
+<div class="row art-row align-items-center justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/700-3.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/700-3.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/700-4.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/700-4.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -68,15 +68,15 @@ After initially determining that I wanted to design a concept store for deconstr
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/screen-shot-2020-12-30-at-22-19-53.png" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/screen-shot-2020-12-30-at-22-19-53.png" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
 #### Martin Margiela - Maison Margiela
 
 <div class="row justify-content-sm-center">
-<div class="col-sm-5 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/76d54d4b9031da36ea2f3bf6df784f0d-maison-martin-margiela-the-face.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+<div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/conceptstore-preview/76d54d4b9031da36ea2f3bf6df784f0d-maison-martin-margiela-the-face.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -92,7 +92,7 @@ Envisioning a concept store with a deconstruction theme, I had to include Maison
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/screen-shot-2020-12-30-at-22-44-41.png" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/screen-shot-2020-12-30-at-22-44-41.png" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -106,7 +106,7 @@ Though these descriptions may seem normal today in 2020 (where many fashion bran
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/mm2.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/mm2.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -116,7 +116,7 @@ For the SS 1998 collection, Margiela presented a runway with flat clothes shown 
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/rr.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/rr.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -128,7 +128,7 @@ Perhaps this could be considered fashion's version of *Objet Trouvé* (found obj
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/screen-shot-2021-01-02-at-00-52-29.png" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/screen-shot-2021-01-02-at-00-52-29.png" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -138,7 +138,7 @@ Tabi is a classic of Maison Margiela. Here there is a Japanese footwear inspirat
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/screen-shot-2021-01-02-at-00-57-57.png" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/screen-shot-2021-01-02-at-00-57-57.png" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -146,11 +146,15 @@ Replica is another famous "line" in Maison Margiela. Shown in the image is a sne
 
 ##### The Maison Margiela Glossary
 
-<div class="row justify-content-sm-center">
-<div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/screen-shot-2021-01-09-at-09-11-33.png" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+<div class="row align-items-center mb-3">
+<div class="col-md-6">
+<div class="row art-row align-items-center">
+<div class="col mt-3 mt-md-0">
+    {% include figure.html path="assets/img/conceptstore-preview/screen-shot-2021-01-09-at-09-11-33.png" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
+</div>
+<div class="col-md-6 mt-3 mt-md-0" markdown="1">
 
 My notes from the Maison Margiela Glossary:
 
@@ -160,15 +164,25 @@ My notes from the Maison Margiela Glossary:
 - **Found items** to new creation
 - **"Poor materials"** as anti fashion glory
 
+</div>
+</div>
+
 #### Rei Kawakubo - Comme des Garçons - Dover Street Market
 
-<div class="row justify-content-sm-center">
-<div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/u161154679-4008843274-fm26-gp0.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+<div class="row align-items-center mb-3">
+<div class="col-md-6">
+<div class="row art-row align-items-center">
+<div class="col mt-3 mt-md-0">
+    {% include figure.html path="assets/img/conceptstore-preview/u161154679-4008843274-fm26-gp0.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
+</div>
+<div class="col-md-6 mt-3 mt-md-0" markdown="1">
 
 Rei Kawakubo is a Japanese fashion designer. After studying fine arts and literature, and working in advertising for a Japanese textile giant for a few years, she decided to design clothes. She started *Comme Des Garçons* (like boys) in 1973.
+
+</div>
+</div>
 
 Instead of responding to trends, she roots her design in concepts and even anti-fashion. Her works lay in-between art and design. Her unique approach immediately grabbed the attention of the fashion world at her debut Paris fashion show in the 1980s. She is now known for her brand *Comme des Garçons* and the concept store *Dover Street Market* (opened in big cities around the world).
 
@@ -176,19 +190,26 @@ Kawakubo's application of deconstruction could be considered different from that
 
 ##### AW 1997
 
-<div class="row justify-content-sm-center">
-<div class="col-sm-5 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/img.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+<div class="row align-items-center mb-3">
+<div class="col-md-6">
+<div class="row art-row align-items-center">
+<div class="col mt-3 mt-md-0">
+    {% include figure.html path="assets/img/conceptstore-preview/img.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
+</div>
+<div class="col-md-6 mt-3 mt-md-0" markdown="1">
 
 As an example, in her Autumn Winter 1997 collection "Dress Becomes a Body Body Becomes Dress", she deconstructed the perception of ideal beauty and perfection.
+
+</div>
+</div>
 
 ##### Wabi-Sabi
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/wabisabi.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/wabisabi.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -204,7 +225,7 @@ Despite some of their different approaches, there are also similarities in Rei K
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/dover.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/dover.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -222,7 +243,7 @@ To catch the essence of the difference between presentations of deconstruction f
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/ha.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/ha.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -232,7 +253,7 @@ Presentations focused on showing the beauty of the garments. Usually set in a gl
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/22.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/22.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
@@ -240,7 +261,7 @@ Radical presentations. Set in unexpected places (e.g. Margiela's shows in an aba
 
 <div class="row justify-content-sm-center">
 <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/conceptstore-preview/studio.jpg" title="conceptstore-preview" class="img-fluid rounded" zoomable=true %}
+    {% include figure.html path="assets/img/conceptstore-preview/studio.jpg" title="conceptstore-preview" class="img-fluid rounded art-img" zoomable=true %}
 </div>
 </div>
 
