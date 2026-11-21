@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our workshop Embodied Agents for Everyday Life is accepted to CHI 2027.
+Our workshop on Embodied Agents for Everyday Life is accepted to CHI 2027.
